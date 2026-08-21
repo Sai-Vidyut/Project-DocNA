@@ -1,0 +1,26 @@
+{
+  "job_id": "c2c2031b451246cfadf3e3488c04806c",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "66c53e1f1faac7acec690445964d2c2d30e3c25daefae77f31336496f3a299d2",
+  "original_filename": "hr_onboarding_underlines.docx",
+  "created_at": "2026-08-18T22:59:13.726361Z",
+  "updated_at": "2026-08-18T22:59:13.879765Z",
+  "warnings": [
+    "review_recommended:blk_0003:0.85",
+    "ambiguous_answer_space:blk_0003",
+    "review_recommended:blk_0004:0.88",
+    "review_recommended:blk_0008:0.88",
+    "review_recommended:blk_0010:0.88",
+    "review_recommended:blk_0005:0.85",
+    "review_recommended:blk_0007:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "[Your response]",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "[Your response]",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "[Your response]",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "[Your response]",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "The gap between what one wants (continuous happiness and prosperity) and one's present state exists primarily due to a lack of right understanding in the self, leading people to live mainly for physical facilities (animal consciousness) rather than developing right understanding and harmony in relationships alongside physical facilities (human consciousness).",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0006",
+    "text": "To fill this gap, most effort is typically directed toward accumulating physical facilities. However, properly filling it requires engaging in self-exploration and education\u2013sanskar to develop right understanding in the self, fulfillment in human relationships, and physical facilities with nature in the correct priority.",
+    "confidence": 0.95,
+    "notes": "Grounded in recap points regarding right understanding, relationship, and physical facility."
+  },
+  {
+    "task_id": "task_0007",
+    "text": "It is getting wider when the focus remains solely on physical facilities, as physical facilities are necessary but not adequate for human beings. It can only be filled by attaining right understanding in the self and fulfillment in relationships alongside physical facility.",
+    "confidence": 0.95,
+    "notes": "Grounded in recap points regarding physical facility adequacy."
+  },
+  {
+    "task_id": "task_0008",
+    "text": "Unhappiness in families is generally more due to a lack of fulfillment in relationships rather than a lack of physical facilities, because physical facilities alone cannot satisfy the need for mutual understanding and harmony among human beings.",
+    "confidence": 0.95,
+    "notes": "Grounded in recap points regarding human needs vs animal needs."
+  },
+  {
+    "task_id": "task_0009",
+    "text": "Currently, the vast majority of time and effort is invested in acquiring physical facilities, whereas very little time and conscious effort are dedicated to developing right understanding and fulfillment in relationships.",
+    "confidence": 0.95,
+    "notes": "Grounded in context comparing animal vs human consciousness priorities."
+  },
+  {
+    "task_id": "task_0010",
+    "text": "1. The basic human aspiration is continuous happiness and prosperity.\n2. For human beings, physical facility is necessary but NOT adequate.\n3. Human fulfillment requires right understanding (in the self), relationship (with human beings), and physical facility (with nature).\n4. Living solely for physical facility is animal consciousness, while living for all three with the correct priority is human consciousness.\n5. Holistic development is the transformation from animal consciousness to human consciousness through education\u2013sanskar.",
+    "confidence": 0.98,
+    "notes": "Summarized key takeaways directly from provided recap blocks in order of importance."
+  },
+  {
+    "task_id": "task_0011",
+    "text": "[Your response - list 5 key problems observed around you, ordered by severity]",
+    "confidence": 1.0,
+    "notes": "user_specific answer mode"
+  },
+  {
+    "task_id": "task_0012",
+    "text": "[Your response - list 5 things that provide you continuous happiness]",
+    "confidence": 1.0,
+    "notes": "user_specific answer mode"
+  },
+  {
+    "task_id": "task_0013",
+    "text": "[Your response - list 5 things that make you feel unhappy]",
+    "confidence": 1.0,
+    "notes": "user_specific answer mode"
+  },
+  {
+    "task_id": "task_0014",
+    "text": "Based on the discussion, the role one plays in the education system is to facilitate and undergo holistic development\u2014the transformation from animal consciousness to human consciousness. This involves developing right understanding in oneself, maintaining fulfilling relationships with human beings, and ensuring physical facilities with nature in the correct priority through education-sanskar.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0015",
+    "text": "For an animal, physical facility is both necessary and largely adequate; once its physical needs are fulfilled, the animal is satisfied. For a human being, however, physical facility is necessary but not adequate because human beings also require right understanding in the self and fulfilling relationships with other human beings. Living solely for physical facility corresponds to animal consciousness, whereas living for right understanding, relationships, and physical facility with the correct priority defines human consciousness.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0016",
+    "text": "Holistic development is the transformation from an animal consciousness, which focuses only on physical facility, to a human consciousness that integrates right understanding, relationships with others, and physical provision in the correct priority. Education\u2013sanskar facilitates this transformation by imparting the right understanding, fostering healthy relationships, and providing the necessary physical facilities in a balanced way.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0017",
+    "text": "Living with animal consciousness means pursuing only physical facility, which is necessary but not adequate for human well\u2011being. Human consciousness requires three components: 1) right understanding in the self, 2) meaningful relationships with other human beings, and 3) adequate physical facility. The correct priority is to first cultivate right understanding, then build and maintain relationships, and finally ensure physical conditions are met.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0018",
+    "text": "Yes. The lesson states that the basic human aspiration is continuous happiness and prosperity, so one can see that these aspirations are indeed the goal.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0019",
+    "text": "Yes. To fulfil basic aspirations, one needs right understanding, fulfilment in relationships, and physical facility\u2014these three are explicitly identified as necessary in the lesson.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0026",
+    "text": "The content and process of our education should indeed include all three elements\u2014right understanding, relationships, and physical facilities\u2014to support holistic development. Current education often overemphasizes physical facility (resources, infrastructure) and academic content while under\u2011addressing the cultivation of right understanding and the development of healthy interpersonal relationships. Moving forward, curricula should integrate values education, social\u2011emotional learning, and experiential components that reinforce these three pillars, ensuring that students not only acquire knowledge but also develop understanding, empathy, and the ability to secure and enjoy appropriate physical conditions.",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

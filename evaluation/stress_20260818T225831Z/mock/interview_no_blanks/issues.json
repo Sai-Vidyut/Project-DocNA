@@ -1,0 +1,8 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 3 answerable tasks detected; expected at least 4",
+    "task_id": null
+  }
+]

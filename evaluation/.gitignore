@@ -1,0 +1,3 @@
+# Evaluation run artifacts (contain document content — do not commit)
+run_*/
+_scratch/

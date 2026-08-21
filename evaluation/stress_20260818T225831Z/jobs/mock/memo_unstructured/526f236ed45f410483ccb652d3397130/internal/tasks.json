@@ -1,0 +1,45 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Document the root cause of last week's outage",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0002",
+      "blk_0004",
+      "blk_0005"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Provide revised timeline for Phase 2",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0004",
+      "blk_0005",
+      "blk_0007",
+      "blk_0008"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "fill_blank",
+    "prompt_text": "Budget owner: ____________",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0006",
+      "blk_0007"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.85,
+    "skip_reason": null
+  }
+]

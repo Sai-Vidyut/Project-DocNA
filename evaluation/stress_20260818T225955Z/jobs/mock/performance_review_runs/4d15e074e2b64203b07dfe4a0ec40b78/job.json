@@ -1,0 +1,22 @@
+{
+  "job_id": "4d15e074e2b64203b07dfe4a0ec40b78",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+  "original_filename": "performance_review_runs.docx",
+  "created_at": "2026-08-18T22:59:59.077232Z",
+  "updated_at": "2026-08-18T22:59:59.168793Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0004:0.88",
+    "review_recommended:blk_0006:0.88",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

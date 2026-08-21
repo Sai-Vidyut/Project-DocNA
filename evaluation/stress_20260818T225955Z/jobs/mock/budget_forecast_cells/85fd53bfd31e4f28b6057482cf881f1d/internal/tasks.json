@@ -1,0 +1,61 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Explain major variances from prior quarter",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0013",
+      "blk_0014",
+      "blk_0016"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "table_item",
+    "prompt_text": "Personnel",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0004",
+      "blk_0005",
+      "blk_0007",
+      "blk_0008"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "table_item",
+    "prompt_text": "Software",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0007",
+      "blk_0008",
+      "blk_0010",
+      "blk_0011"
+    ],
+    "answer_space_id": "space_0004",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "table_item",
+    "prompt_text": "Travel",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0010",
+      "blk_0011",
+      "blk_0013",
+      "blk_0014"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.78,
+    "skip_reason": null
+  }
+]

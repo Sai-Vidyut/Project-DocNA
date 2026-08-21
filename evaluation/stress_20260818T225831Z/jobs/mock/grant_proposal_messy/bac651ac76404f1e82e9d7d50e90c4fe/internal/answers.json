@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for 1. Summarize the project in one sentence",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for 2. Describe target beneficiaries.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for a) Primary audience",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Answer for b) Secondary audience",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Answer for Estimated reach: _______________________",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0006",
+    "text": "Answer for 3. Why is this project urgent?",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

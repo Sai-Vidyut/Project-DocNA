@@ -1,0 +1,22 @@
+{
+  "job_id": "d954bc4e0cc94857bccae52d9bdd68ca",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "354b51cec7fe93be797848f3645676f13f1869aff4a5270afc8b243138761788",
+  "original_filename": "debate_worksheet.docx",
+  "created_at": "2026-08-18T22:59:13.234952Z",
+  "updated_at": "2026-08-18T22:59:13.343240Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0003:0.85",
+    "review_recommended:blk_0006:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

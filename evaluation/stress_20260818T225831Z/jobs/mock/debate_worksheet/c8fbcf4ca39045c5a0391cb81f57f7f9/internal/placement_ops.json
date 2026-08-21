@@ -1,0 +1,102 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 1
+      }
+    },
+    "text": "Answer for Complete arguments for your assigned sid",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 1
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 3
+      }
+    },
+    "text": "Answer for 1. State your thesis.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 2
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 6
+      }
+    },
+    "text": "Answer for 2. Provide two supporting points.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 5
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 8
+      }
+    },
+    "text": "Answer for 3. Anticipate one counterargument.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 7
+      }
+    },
+    "review_flags": []
+  }
+]

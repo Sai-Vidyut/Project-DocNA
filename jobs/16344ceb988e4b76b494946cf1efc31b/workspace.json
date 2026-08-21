@@ -1,0 +1,19 @@
+{
+  "workspace_id": "16344ceb988e4b76b494946cf1efc31b",
+  "job_id": "16344ceb988e4b76b494946cf1efc31b",
+  "document_name": "numbered_subquestions.docx",
+  "display_name": "numbered_subquestions",
+  "created_at": "2026-08-18T22:34:07.818442Z",
+  "updated_at": "2026-08-18T22:34:36.704947Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "numbered_subquestions_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

@@ -1,0 +1,22 @@
+{
+  "job_id": "e1e51ffd399e4fb1bf0a492205b2266c",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "5e88d447b0fbfdabde77c775b3bb2bdf9daa9f9706a86afc288101c46a159186",
+  "original_filename": "internship_multibreak.docx",
+  "created_at": "2026-08-18T22:59:57.599102Z",
+  "updated_at": "2026-08-18T22:59:57.726833Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0004:0.85",
+    "review_recommended:blk_0009:0.88",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

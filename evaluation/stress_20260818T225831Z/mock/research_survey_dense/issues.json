@@ -1,0 +1,14 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'statistical software' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 2 answerable tasks detected; expected at least 3",
+    "task_id": null
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing '________________________________________' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 1 answerable tasks detected; expected at least 3",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "info",
+    "message": "Mock-detected task missing from real AI run: ______________________________",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "info",
+    "message": "Mock-detected task missing from real AI run: ________________________________________",
+    "task_id": null
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0001"
+  }
+]

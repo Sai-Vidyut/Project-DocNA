@@ -1,0 +1,19 @@
+{
+  "workspace_id": "ea709c3cd50b425586ec4bbabb5225c8",
+  "job_id": "ea709c3cd50b425586ec4bbabb5225c8",
+  "document_name": "1011.docx",
+  "display_name": "1011",
+  "created_at": "2026-08-19T16:11:11.272281Z",
+  "updated_at": "2026-08-19T16:14:41.666569Z",
+  "status": "failed",
+  "questions_detected": 14,
+  "answers_generated": 14,
+  "items_remaining": 0,
+  "items_needing_review": 7,
+  "edited_task_ids": [],
+  "export_filename": "1011_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": "DocNA could not verify all answers in the completed document.",
+  "library_kind": "internal"
+}

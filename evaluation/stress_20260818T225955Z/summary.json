@@ -1,0 +1,726 @@
+{
+  "timestamp": "20260818T225955Z",
+  "fixtures_evaluated": 18,
+  "mock_completed": 18,
+  "mock_failed": 0,
+  "mock_error_issues": 0,
+  "real_ai_ran": false,
+  "issue_counts": {},
+  "classified_issues": {
+    "A": [],
+    "B": [],
+    "C": [],
+    "D": [],
+    "E": [],
+    "F": [],
+    "G": [],
+    "H": [],
+    "I": []
+  },
+  "fixtures": [
+    {
+      "fixture": "budget_forecast_cells.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 184.69,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "insert_below": 1,
+        "fill_cell": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 17,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "49d702cde487d2b45c839956dd43e07fd98410af643b160822b501638941ecb5",
+        "output_hash": "800b7fd83e26ff5a1b7d251d151ea63cb6c55e8c061ccf40976141e74088c487",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "clinical_intake_merged.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 193.23,
+      "detected_tasks": 5,
+      "answerable_tasks": 5,
+      "answers_generated": 5,
+      "placement_strategies": {
+        "insert_below": 2,
+        "fill_cell": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 18,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c82e3e8a1ba23fcc1efdb2d2861421e5277d947b54d32b5a4870c61ea9f107b3",
+        "output_hash": "aaebc763b75a6ded24a039d6649bb1523280245005171be0fe5d7a92c8946820",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "construction_rfp_tables.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 241.52,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "insert_below": 3,
+        "fill_existing": 1,
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 18,
+        "blocks_after": 21,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "7810d7660a02b9a3159bfefccb1390bd9f6470badb659fc1b12728a90438cfae",
+        "output_hash": "7a54a748420ab9bfb97ffc8c260c256ad9c8f2318b5e21ba6e7f12cbfd3764e6",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "course_syllabus_breaks.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 210.71,
+      "detected_tasks": 5,
+      "answerable_tasks": 5,
+      "answers_generated": 5,
+      "placement_strategies": {
+        "fill_existing": 4,
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 14,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "047e98c05402feb570bb9df437f58309b0d8b688d04a0415c98c653d34b7805e",
+        "output_hash": "c56024327dbd0fdebc5bd003ab4e52b900e8a9957f38415aefef792e573fde3f",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "debate_worksheet.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 194.52,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "insert_below": 1,
+        "fill_existing": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "354b51cec7fe93be797848f3645676f13f1869aff4a5270afc8b243138761788",
+        "output_hash": "100f801d8878e78e853c032589a06bb26ee51269fe357c953fed51b2ad255d95",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "grant_proposal_messy.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 252.18,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "fill_existing": 3,
+        "insert_below": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "83cf448b9f7715cb4d2dc4f9e588cdd6720c965f18119725414bec8cbffa3ed5",
+        "output_hash": "98abaf1ca4a5101cdfa6f2fbeb7c62def128d8f3cef896fec6f0ab761f9a9104",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "hr_onboarding_underlines.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 268.67,
+      "detected_tasks": 7,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "insert_below": 4,
+        "fill_existing": 2,
+        "skip": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 15,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "66c53e1f1faac7acec690445964d2c2d30e3c25daefae77f31336496f3a299d2",
+        "output_hash": "56d6dc11e5370e8e48052fb975792cce6a23993b77589055f250a2f17f5c707c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "internship_multibreak.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 242.17,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "insert_below": 2,
+        "fill_existing": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 13,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "5e88d447b0fbfdabde77c775b3bb2bdf9daa9f9706a86afc288101c46a159186",
+        "output_hash": "98fd854b85cbd62e639833a82171d280d75940af0c2351855b2a9c5812588b60",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "interview_no_blanks.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 224.98,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "insert_below": 4
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 12,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+        "output_hash": "49e078f6b6d385f911a921156ffd4323186c01839ecbf3d4842c638e16014f3b",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "it_security_audit_form.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 220.12,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "insert_below": 3,
+        "fill_existing": 1,
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 15,
+        "blocks_after": 18,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "37f8a58459b1dd17c3e5e95cd86acca3b8a446f0cbdd396b3aca26d12e5cd642",
+        "output_hash": "633852998622fb15d3cf6cf55efccc074af808bbfe998910163b73e784a74239",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "legal_deposition_long.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 253.69,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "insert_below": 3,
+        "fill_existing": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 13,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "9612b3621fc47f83af0b2fe01979fce423f499f844e1df6e983cc2fd4a16d7cd",
+        "output_hash": "d95972aa8dc6a65081fbc7d87c6b16ea1fbd9a8f50b9585feb1c523865d6304f",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "medical_history_shaded.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 204.02,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "insert_below": 2,
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 17,
+        "blocks_after": 19,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "b25fd92a0a0c795d1e4908636ad142586a54285f1ae0d16a431d4dfdf062cf4c",
+        "output_hash": "966458b5a66f613d3b2ba2ac20bddf63eec589e5cdb649b80d3e6a45fdd2d571",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "memo_unstructured.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 198.49,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "fill_existing": 2,
+        "insert_below": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "2fa8887fec1308c5fd9be873e3e994cb247b0f63a9ee648c026efc7d2eea2cc6",
+        "output_hash": "ee0888d74c8851d8d06d77ecd5a8c3a8e8077a8b33c5841bdda512e81e177d34",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "newsletter_with_header.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 165.6,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "insert_below": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 5,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "adab404348fc6fb5f0797c705883af1d6380af77be961ea00e55412220f63f72",
+        "output_hash": "c61e5d4cb79208bfce0273f5b35154d86b010691001a45fac2bc1f5f749789d5",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "performance_review_runs.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 167.19,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "fill_existing": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 7,
+        "blocks_after": 7,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+        "output_hash": "7fa4e06bd83215c24c92d3fc6fc86bdc0972f6514077dcf052698330382327c4",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "policy_partial_answers.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 244.61,
+      "detected_tasks": 5,
+      "answerable_tasks": 3,
+      "answers_generated": 5,
+      "placement_strategies": {
+        "insert_below": 2,
+        "skip": 2,
+        "fill_existing": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 13,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c5d16983eb58456aae2300db0e64773c33c485440ae9e62fe19b63fab29d4e69",
+        "output_hash": "4234eb66f67e1fa22bb061a2884e760c744b85c1da3bda036584724b326cc0a6",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "research_survey_dense.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 200.45,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "fill_existing": 2,
+        "insert_below": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "ac60900768c7dc0cc98404157c4649772750f880e38b65e9fd2054c37845e7f0",
+        "output_hash": "e391e82e2fd47f90239fd0f388d750cc17a7cb077476147dd6d8f18a0720cd01",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": true,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "volunteer_mixed_completion.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 240.82,
+      "detected_tasks": 4,
+      "answerable_tasks": 2,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "skip": 2,
+        "insert_below": 1,
+        "fill_existing": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 12,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "04ad4803b16630689e4dac1656d138eeeaab5f622b7a7ae36dfbc2796420a85c",
+        "output_hash": "3845fb090d0f08ebc42d57448ac9b1dd844c22255b6e9712f2f8d532de3e2d37",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": true,
+        "single_edit_ok": true,
+        "multi_edit_ok": true,
+        "original_unchanged": true,
+        "ai_output_preserved": true,
+        "edited_text_found": true,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    }
+  ]
+}

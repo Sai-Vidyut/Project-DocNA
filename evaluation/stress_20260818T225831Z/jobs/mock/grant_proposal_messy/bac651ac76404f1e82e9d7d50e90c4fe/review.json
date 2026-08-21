@@ -1,0 +1,144 @@
+{
+  "job_id": "bac651ac76404f1e82e9d7d50e90c4fe",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 6,
+    "answers_generated": 6,
+    "items_skipped": 0,
+    "items_needing_review": 1
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "1. Summarize the project in one sentence.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "2. Describe target beneficiaries.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "a) Primary audience",
+      "task_kind": "sub_question",
+      "answer_status": "answered",
+      "answer_text": "Answer for a) Primary audience",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "b) Secondary audience",
+      "task_kind": "sub_question",
+      "answer_status": "answered",
+      "answer_text": "Answer for b) Secondary audience",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "Estimated reach: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Estimated reach: _______________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0006",
+      "task_text": "3. Why is this project urgent?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for 3. Why is this project urgent?",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0005",
+      "task_text": "Estimated reach: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Estimated reach: _______________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0004:0.85",
+    "review_recommended:blk_0010:0.85",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

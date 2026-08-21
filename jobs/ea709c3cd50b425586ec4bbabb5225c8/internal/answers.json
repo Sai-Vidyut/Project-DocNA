@@ -1,0 +1,86 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "[Student Name]",
+    "confidence": 0.5,
+    "notes": "No student name is provided in the document context."
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Not specified",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "The gap between what one wants and one's present state exists primarily due to a lack of right understanding and the lack of competence required to fulfill those desires.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Effort is made through self-exploration and developing right understanding and right feelings to bridge the gap between the desired state and the present state.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Whether the gap is getting filled or getting wider depends on the individual's active efforts and right understanding; with proper effort to bridge what you want and your present state, it gets filled, whereas without effort, it tends to get wider.",
+    "confidence": 0.85,
+    "notes": "Answered based on the reflective context regarding the gap between desired state and present state."
+  },
+  {
+    "task_id": "task_0006",
+    "text": "Unhappiness in the family is generally more due to a lack of fulfilment in relationships rather than a lack of physical facilities.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0007",
+    "text": "Most of the time and effort (often around 90% or more) is currently invested in acquiring and managing physical facilities, while very little time and effort is dedicated to ensuring fulfilment in relationships.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0008",
+    "text": "Numbering the items in the order 1\u20132\u20133 helps clarify which requirements are most critical, ensuring that the most important ones receive the necessary focus and resources first.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0009",
+    "text": "It could be either; often the issue stems from a lack of skills or a lack of values, depending on the specific circumstances.",
+    "confidence": 0.6,
+    "notes": "Generic answer due to insufficient context."
+  },
+  {
+    "task_id": "task_0010",
+    "text": "Unable to determine from the provided information.",
+    "confidence": 0.1,
+    "notes": "No context to assess trend."
+  },
+  {
+    "task_id": "task_0011",
+    "text": "I see myself primarily as a student who actively engages with the material, seeks mentorship, and, when possible, supports peers as a tutor within the education system.",
+    "confidence": 0.7,
+    "notes": null
+  },
+  {
+    "task_id": "task_0012",
+    "text": "Holistic development refers to the balanced growth of an individual\u2019s physical, intellectual, emotional, social, and spiritual dimensions, ensuring that each aspect nurtures the others rather than competing for attention. Education\u2013sanskar, which integrates traditional values, moral guidance, cultural wisdom, and disciplined learning, plays a pivotal role in this process by providing a value\u2011based foundation that shapes character, fosters self\u2011awareness, promotes ethical decision\u2011making, and cultivates a sense of responsibility toward society, thereby enabling learners to thrive as well\u2011rounded, socially conscious human beings.",
+    "confidence": 0.92,
+    "notes": "General educational theory; no specific text required."
+  },
+  {
+    "task_id": "task_0013",
+    "text": "I can see that my basic aspirations are for continuous happiness and prosperity.",
+    "confidence": 0.8,
+    "notes": null
+  },
+  {
+    "task_id": "task_0014",
+    "text": "The text indicates these three components (right understanding, relationship fulfilment, and physical facility) are important for education reform, but does not explicitly state they are required for fulfilling basic aspirations. The connection to aspirations is implied rather than directly confirmed.",
+    "confidence": 0.6,
+    "notes": "The document suggests the three elements are important for education, not directly for fulfilling aspirations."
+  }
+]

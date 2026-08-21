@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for Provide pricing and methodology.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for a) Mobilization plan",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for b) Disposal requirements",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Answer for Describe your safety record for the last",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Answer for Concrete pour",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0006",
+    "text": "Answer for Steel erection",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

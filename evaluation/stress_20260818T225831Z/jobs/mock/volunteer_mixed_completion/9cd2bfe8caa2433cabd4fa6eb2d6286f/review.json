@@ -1,0 +1,91 @@
+{
+  "job_id": "9cd2bfe8caa2433cabd4fa6eb2d6286f",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 2,
+    "answers_generated": 2,
+    "items_skipped": 0,
+    "items_needing_review": 2
+  },
+  "answered": [
+    {
+      "task_id": "task_0002",
+      "task_text": "Primary phone number?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "Preferred volunteer shift?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Volunteer ID?",
+      "task_kind": "question",
+      "answer_status": "skipped:already_answered",
+      "answer_text": "Answer for Volunteer ID?",
+      "answer_confidence": 0.95,
+      "placement_strategy": "skip",
+      "placement_label": "Not placed",
+      "review_flags": [
+        "already_answered"
+      ],
+      "skip_reason": "already_answered",
+      "attention_reason": "This item was already answered in the document.",
+      "needs_review": true,
+      "editable": false,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Background check completed?",
+      "task_kind": "question",
+      "answer_status": "skipped:already_answered",
+      "answer_text": "Answer for Background check completed?",
+      "answer_confidence": 0.95,
+      "placement_strategy": "skip",
+      "placement_label": "Not placed",
+      "review_flags": [
+        "already_answered"
+      ],
+      "skip_reason": "already_answered",
+      "attention_reason": "This item was already answered in the document.",
+      "needs_review": true,
+      "editable": false,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

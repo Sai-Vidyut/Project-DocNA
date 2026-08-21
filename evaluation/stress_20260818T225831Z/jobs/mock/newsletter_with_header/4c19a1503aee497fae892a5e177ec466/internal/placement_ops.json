@@ -1,0 +1,29 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 4
+      }
+    },
+    "text": "Answer for Comments: ______________________________",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 4
+      }
+    },
+    "review_flags": [
+      "overflow"
+    ]
+  }
+]

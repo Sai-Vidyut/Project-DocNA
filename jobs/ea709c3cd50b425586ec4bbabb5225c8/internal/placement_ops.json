@@ -1,0 +1,352 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 10
+      }
+    },
+    "text": "[Student Name]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 9
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 16
+      }
+    },
+    "text": "Not specified",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 15
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "The gap between what one wants and one's present state exists primarily due to a lack of right understanding and the lack of competence required to fulfill those desires.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "Effort is made through self-exploration and developing right understanding and right feelings to bridge the gap between the desired state and the present state.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0005",
+    "task_id": "task_0005",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "Whether the gap is getting filled or getting wider depends on the individual's active efforts and right understanding; with proper effort to bridge what you want and your present state, it gets filled, whereas without effort, it tends to get wider.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0006",
+    "task_id": "task_0006",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "text": "Unhappiness in the family is generally more due to a lack of fulfilment in relationships rather than a lack of physical facilities.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0007",
+    "task_id": "task_0007",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 57
+      }
+    },
+    "text": "Most of the time and effort (often around 90% or more) is currently invested in acquiring and managing physical facilities, while very little time and effort is dedicated to ensuring fulfilment in relationships.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 56
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0008",
+    "task_id": "task_0008",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "text": "Numbering the items in the order 1\u20132\u20133 helps clarify which requirements are most critical, ensuring that the most important ones receive the necessary focus and resources first.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0009",
+    "task_id": "task_0009",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "text": "It could be either; often the issue stems from a lack of skills or a lack of values, depending on the specific circumstances.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0010",
+    "task_id": "task_0010",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "text": "Unable to determine from the provided information.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0011",
+    "task_id": "task_0011",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 123
+      }
+    },
+    "text": "I see myself primarily as a student who actively engages with the material, seeks mentorship, and, when possible, supports peers as a tutor within the education system.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 122
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0012",
+    "task_id": "task_0012",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 133
+      }
+    },
+    "text": "Holistic development refers to the balanced growth of an individual\u2019s physical, intellectual, emotional, social, and spiritual dimensions, ensuring that each aspect nurtures the others rather than competing for attention. Education\u2013sanskar, which integrates traditional values, moral guidance, cultural wisdom, and disciplined learning, plays a pivotal role in this process by providing a value\u2011based foundation that shapes character, fosters self\u2011awareness, promotes ethical decision\u2011making, and cultivates a sense of responsibility toward society, thereby enabling learners to thrive as well\u2011rounded, socially conscious human beings.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 132
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0013",
+    "task_id": "task_0013",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "text": "I can see that my basic aspirations are for continuous happiness and prosperity.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0014",
+    "task_id": "task_0014",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "text": "The text indicates these three components (right understanding, relationship fulfilment, and physical facility) are important for education reform, but does not explicitly state they are required for fulfilling basic aspirations. The connection to aspirations is implied rather than directly confirmed.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "review_flags": []
+  }
+]

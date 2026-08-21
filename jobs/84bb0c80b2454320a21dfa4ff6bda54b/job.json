@@ -1,0 +1,17 @@
+{
+  "job_id": "84bb0c80b2454320a21dfa4ff6bda54b",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "c30d11724996b682043569a0d9e00d71b13d51a2b68ab11534f65a92d1e3c0a4",
+  "original_filename": "multi_section_form.docx",
+  "created_at": "2026-08-18T22:34:32.739176Z",
+  "updated_at": "2026-08-18T22:35:01.476377Z",
+  "warnings": [
+    "semantic_unknown_block_id:space_0006",
+    "headers_footers_skipped",
+    "review_recommended:task_0005:0.80",
+    "review_recommended:task_0004:0.80"
+  ],
+  "errors": [],
+  "output_ready": true
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 1
+      }
+    },
+    "text": "Answer for Complete shaded cells only. Leave N/A wh",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 1
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 3
+      }
+    },
+    "text": "Answer for Describe symptom onset and duration",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 3
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 1,
+        "col": 1
+      }
+    },
+    "text": "Answer for Date of visit",
+    "style_clone_from": null,
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 2,
+        "col": 1
+      }
+    },
+    "text": "Answer for Primary complaint",
+    "style_clone_from": null,
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0005",
+    "task_id": "task_0005",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 3,
+        "col": 1
+      }
+    },
+    "text": "Answer for Current medications",
+    "style_clone_from": null,
+    "review_flags": []
+  }
+]

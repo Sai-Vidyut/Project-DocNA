@@ -1,0 +1,19 @@
+{
+  "workspace_id": "c81c833aa3fb4aff89ee8794798e2039",
+  "job_id": "c81c833aa3fb4aff89ee8794798e2039",
+  "document_name": "school_college_questionnaire.docx",
+  "display_name": "school_college_questionnaire",
+  "created_at": "2026-08-18T22:32:30.893449Z",
+  "updated_at": "2026-08-18T22:34:12.841948Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "school_college_questionnaire_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

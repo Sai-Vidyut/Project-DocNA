@@ -1,0 +1,22 @@
+{
+  "job_id": "0c0629b8696c45a1b51580cfe88f1be4",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "2fa8887fec1308c5fd9be873e3e994cb247b0f63a9ee648c026efc7d2eea2cc6",
+  "original_filename": "memo_unstructured.docx",
+  "created_at": "2026-08-18T22:59:15.181426Z",
+  "updated_at": "2026-08-18T22:59:15.301609Z",
+  "warnings": [
+    "review_recommended:blk_0003:0.88",
+    "review_recommended:blk_0006:0.88",
+    "review_recommended:blk_0008:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

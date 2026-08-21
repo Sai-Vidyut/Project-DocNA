@@ -1,0 +1,72 @@
+{
+  "job_id": "a086ca0048c7468384a052e72f1c0a96",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 3,
+    "answers_generated": 3,
+    "items_skipped": 0,
+    "items_needing_review": 0
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Goal 1: Describe progress on the revenue target.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "Goal 2: Summarize leadership initiatives.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "List three measurable outcomes from Q3.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for List three measurable outcomes from Q3.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [],
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0004:0.88",
+    "review_recommended:blk_0006:0.88",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

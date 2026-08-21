@@ -1,0 +1,1374 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 10
+      }
+    },
+    "text": "[Student Name]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 9
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 16
+      }
+    },
+    "text": "[Date]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 15
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "The gap between what one desires and one's present state exists due to a lack of right understanding and self-exploration, where effort is often focused solely on physical facilities rather than developing understanding and right feelings in relationships.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "text": "To fill this gap, one needs to engage in continuous self-exploration, develop right understanding through value-based education, and ensure harmony in thoughts, relationships, and nature.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": [
+      "shared_answer_space"
+    ]
+  },
+  {
+    "op_id": "op_0005",
+    "task_id": "task_0005",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "text": "Without right understanding, the gap tends to get wider despite accumulating physical facilities; however, through self-exploration and right understanding, the gap gradually gets filled.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": [
+      "shared_answer_space"
+    ]
+  },
+  {
+    "op_id": "op_0006",
+    "task_id": "task_0006",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "text": "More due to lack of fulfilment in relationship.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0007",
+    "task_id": "task_0007",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 57
+      }
+    },
+    "text": "Most time and effort is invested in acquiring physical facilities rather than for fulfilment in relationships.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 56
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0008",
+    "task_id": "task_0008",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "text": "Right understanding gives clarity about human purpose and harmony, which leads to fulfilment in relationships and proper utilization of physical facilities.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0009",
+    "task_id": "task_0009",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "text": "Most current major societal problems are due to a lack of values rather than a lack of skills.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0010",
+    "task_id": "task_0010",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "text": "Increasing",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0011",
+    "task_id": "task_0011",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 123
+      }
+    },
+    "text": "My role in the education system is to develop right understanding and right feelings (sanskar) within myself, live in alignment with them in relationships, and help facilitate holistic, value-based education for others.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 122
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0012",
+    "task_id": "task_0012",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 133
+      }
+    },
+    "text": "Holistic development means the all-around development of a human being encompassing right understanding in the self, fulfillment in human-to-human relationships, and prosperity with physical facilities. Education\u2013sanskar plays the vital role of facilitating right understanding and human conduct, transforming society toward a humane order.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 132
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0013",
+    "task_id": "task_0013",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "text": "Yes, through self-reflection and natural acceptance, it is clear that the basic human aspirations are for continuous happiness and prosperity.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0014",
+    "task_id": "task_0014",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "text": "Yes, fulfilling basic aspirations requires right understanding in the self (for harmony within), fulfillment in relationships (for harmony with human beings), and physical facilities (for harmony with nature).",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0015",
+    "task_id": "task_0015",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 11
+      }
+    },
+    "text": "[Registration Number]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 11
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0016",
+    "task_id": "task_0016",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 13
+      }
+    },
+    "text": "Branch / Section",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 13
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0017",
+    "task_id": "task_0017",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0018",
+    "task_id": "task_0018",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0019",
+    "task_id": "task_0019",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0020",
+    "task_id": "task_0020",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0021",
+    "task_id": "task_0021",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0022",
+    "task_id": "task_0022",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 37
+      }
+    },
+    "text": "YES",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 37
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0023",
+    "task_id": "task_0023",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 38
+      }
+    },
+    "text": "YES",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 38
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0024",
+    "task_id": "task_0024",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 39
+      }
+    },
+    "text": "To be happy",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 39
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0025",
+    "task_id": "task_0025",
+    "strategy": "skip",
+    "target": null,
+    "text": "YES",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0026",
+    "task_id": "task_0026",
+    "strategy": "skip",
+    "target": null,
+    "text": "YES",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0027",
+    "task_id": "task_0027",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 42
+      }
+    },
+    "text": "To be prosperous",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 42
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0028",
+    "task_id": "task_0028",
+    "strategy": "skip",
+    "target": null,
+    "text": "YES",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0029",
+    "task_id": "task_0029",
+    "strategy": "skip",
+    "target": null,
+    "text": "YES",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0030",
+    "task_id": "task_0030",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 45
+      }
+    },
+    "text": "Continuity of happiness and prosperity",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 45
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0031",
+    "task_id": "task_0031",
+    "strategy": "skip",
+    "target": null,
+    "text": "Yes",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0032",
+    "task_id": "task_0032",
+    "strategy": "skip",
+    "target": null,
+    "text": "Yes",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0033",
+    "task_id": "task_0033",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 52
+      }
+    },
+    "text": "Question",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 52
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0034",
+    "task_id": "task_0034",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 53
+      }
+    },
+    "text": "Your observation",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 53
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0035",
+    "task_id": "task_0035",
+    "strategy": "skip",
+    "target": null,
+    "text": "Lack of physical facilities",
+    "style_clone_from": null,
+    "review_flags": [
+      "already_answered"
+    ]
+  },
+  {
+    "op_id": "op_0036",
+    "task_id": "task_0036",
+    "strategy": "skip",
+    "target": null,
+    "text": "",
+    "style_clone_from": null,
+    "review_flags": [
+      "instruction"
+    ]
+  },
+  {
+    "op_id": "op_0037",
+    "task_id": "task_0037",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 60
+      }
+    },
+    "text": "Information not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 60
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0038",
+    "task_id": "task_0038",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 61
+      }
+    },
+    "text": "Information not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 61
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0039",
+    "task_id": "task_0039",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 63
+      }
+    },
+    "text": "Information not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 63
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0040",
+    "task_id": "task_0040",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 66
+      }
+    },
+    "text": "Information not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 66
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0041",
+    "task_id": "task_0041",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 69
+      }
+    },
+    "text": "Information not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 69
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0042",
+    "task_id": "task_0042",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 73
+      }
+    },
+    "text": "I do not have enough information to answer this question.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 73
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0043",
+    "task_id": "task_0043",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 74
+      }
+    },
+    "text": "I do not have enough information to answer this question.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 74
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0044",
+    "task_id": "task_0044",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 75
+      }
+    },
+    "text": "I do not have enough information to answer this question.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 75
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0045",
+    "task_id": "task_0045",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 76
+      }
+    },
+    "text": "I do not have enough information to answer this question.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 76
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0046",
+    "task_id": "task_0046",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 77
+      }
+    },
+    "text": "I do not have enough information to answer this question.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 77
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0047",
+    "task_id": "task_0047",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 78
+      }
+    },
+    "text": "5",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 78
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0048",
+    "task_id": "task_0048",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 79
+      }
+    },
+    "text": "List five key problems observed in your surroundings in order of severity, starting with the most severe.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 79
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0049",
+    "task_id": "task_0049",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 80
+      }
+    },
+    "text": "#",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 80
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0050",
+    "task_id": "task_0050",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 81
+      }
+    },
+    "text": "Problem",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 81
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0051",
+    "task_id": "task_0051",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 84
+      }
+    },
+    "text": "Root cause (your view)",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 84
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0052",
+    "task_id": "task_0052",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 85
+      }
+    },
+    "text": "Solution (prioritized): 1) Implement targeted skill development programs. 2) Integrate value-based training in organizational culture. 3) Establish mentorship systems to address gaps.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 85
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0053",
+    "task_id": "task_0053",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 4
+      }
+    },
+    "text": "1. Introduction to Value Education",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 4
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0054",
+    "task_id": "task_0054",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 92
+      }
+    },
+    "text": "2. Professional Ethics in Engineering",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 92
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0055",
+    "task_id": "task_0055",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 98
+      }
+    },
+    "text": "3. Environmental Ethics",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 98
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0056",
+    "task_id": "task_0056",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 104
+      }
+    },
+    "text": "4. Ethics in Technology",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 104
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0057",
+    "task_id": "task_0057",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 110
+      }
+    },
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 110
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0058",
+    "task_id": "task_0058",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 116
+      }
+    },
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 116
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0059",
+    "task_id": "task_0059",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 119
+      }
+    },
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 119
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0060",
+    "task_id": "task_0060",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 127
+      }
+    },
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 127
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0061",
+    "task_id": "task_0061",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 137
+      }
+    },
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 137
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0062",
+    "task_id": "task_0062",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 145
+      }
+    },
+    "text": "Yes, an effective education system should weave together the three components highlighted\u2014right understanding (content), fulfillment in relationships (process and social engagement), and physical facility (resources and infrastructure). Presently many curricula emphasize content knowledge while under\u2011investing in relational dynamics and adequate material support, which limits holistic development and well\u2011being. The way forward is to design curricula that embed inquiry\u2011based learning (promoting right understanding), collaborative and community\u2011oriented projects (fostering relational fulfillment), and equitable access to learning environments, technology, and health resources (ensuring physical facility). This integrated approach aligns knowledge acquisition with social and material well\u2011being, preparing learners for continuous happiness and prosperity.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 145
+      }
+    },
+    "review_flags": []
+  }
+]

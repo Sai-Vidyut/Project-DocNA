@@ -1,0 +1,91 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Provide pricing and methodology.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "sub_question",
+    "prompt_text": "a) Mobilization plan",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0002",
+      "blk_0003",
+      "blk_0005",
+      "blk_0006"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "sub_question",
+    "prompt_text": "b) Disposal requirements",
+    "parent_task_id": "task_0002",
+    "context_block_ids": [
+      "blk_0004",
+      "blk_0005",
+      "blk_0007",
+      "blk_0008"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "Describe your safety record for the last five years in detail.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0014",
+      "blk_0015",
+      "blk_0017",
+      "blk_0018"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "table_item",
+    "prompt_text": "Concrete pour",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011",
+      "blk_0012"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "table_item",
+    "prompt_text": "Steel erection",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0011",
+      "blk_0012",
+      "blk_0014",
+      "blk_0015"
+    ],
+    "answer_space_id": "space_0005",
+    "confidence": 0.78,
+    "skip_reason": null
+  }
+]

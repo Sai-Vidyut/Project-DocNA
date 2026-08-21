@@ -1,0 +1,14 @@
+[
+  {
+    "layer": "detection",
+    "severity": "warning",
+    "message": "Already-answered item not skipped: Volunteer ID?",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "detection",
+    "severity": "warning",
+    "message": "Already-answered item not skipped: Background check completed?",
+    "task_id": "task_0004"
+  }
+]

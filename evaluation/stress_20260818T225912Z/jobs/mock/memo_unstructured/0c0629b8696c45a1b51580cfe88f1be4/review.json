@@ -1,0 +1,111 @@
+{
+  "job_id": "0c0629b8696c45a1b51580cfe88f1be4",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 4,
+    "answers_generated": 4,
+    "items_skipped": 0,
+    "items_needing_review": 1
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Document the root cause of last week's outage",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "For discussion only: Should we change vendors?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "Provide revised timeline for Phase 2",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for Provide revised timeline for Phase 2",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Budget owner: ____________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Budget owner: ____________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0004",
+      "task_text": "Budget owner: ____________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Budget owner: ____________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0003:0.88",
+    "review_recommended:blk_0006:0.88",
+    "review_recommended:blk_0008:0.85",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

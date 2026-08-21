@@ -1,0 +1,33 @@
+{
+  "job_id": "ea709c3cd50b425586ec4bbabb5225c8",
+  "status": "failed",
+  "source_format": "docx",
+  "source_hash": "235335a65c345bcc0edc43dcbdd64b05d0034fe7dd4a63f006c0908da1757d9c",
+  "original_filename": "1011.docx",
+  "created_at": "2026-08-19T16:11:11.272281Z",
+  "updated_at": "2026-08-19T16:14:41.666569Z",
+  "warnings": [
+    "semantic_chunk_provider_error:BadRequestError",
+    "review_recommended:blk_0010:0.78",
+    "review_recommended:blk_0016:0.78",
+    "review_recommended:blk_0049:0.80",
+    "headers_footers_skipped",
+    "low_confidence:task_0001:0.50",
+    "review_recommended:task_0005:0.85",
+    "low_confidence:task_0009:0.60",
+    "low_confidence:task_0010:0.10",
+    "review_recommended:task_0011:0.70",
+    "review_recommended:task_0013:0.80",
+    "low_confidence:task_0014:0.60"
+  ],
+  "errors": [
+    {
+      "stage": "validating",
+      "message": "Final validation failed: expected answers were not found in output",
+      "task_id": null
+    }
+  ],
+  "output_ready": false,
+  "edited_output_ready": false,
+  "edited_task_ids": []
+}

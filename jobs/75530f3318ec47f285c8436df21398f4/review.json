@@ -1,0 +1,96 @@
+{
+  "job_id": "75530f3318ec47f285c8436df21398f4",
+  "status": "completed",
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "What did you learn this week?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.85,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "What challenged you the most?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "What will you do differently next week?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0006",
+      "task_text": "",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0007",
+      "task_text": "",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0008",
+      "task_text": "",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0004",
+      "task_text": "Write a brief reflection for each prompt.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0005:0.85",
+    "headers_footers_skipped",
+    "review_recommended:task_0001:0.85"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for Complete shaded cells only. Leave N/A wh",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for Describe symptom onset and duration",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for Date of visit",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Answer for Primary complaint",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Answer for Current medications",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

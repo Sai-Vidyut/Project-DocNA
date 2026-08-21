@@ -1,0 +1,23 @@
+{
+  "job_id": "9f198ca1fc3b4311b3df460961b5471b",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "b25fd92a0a0c795d1e4908636ad142586a54285f1ae0d16a431d4dfdf062cf4c",
+  "original_filename": "medical_history_shaded.docx",
+  "created_at": "2026-08-18T22:58:34.475107Z",
+  "updated_at": "2026-08-18T22:58:34.591804Z",
+  "warnings": [
+    "review_recommended:blk_0014:0.88",
+    "review_recommended:blk_0016:0.88",
+    "review_recommended:blk_0006:0.78",
+    "review_recommended:blk_0010:0.78",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

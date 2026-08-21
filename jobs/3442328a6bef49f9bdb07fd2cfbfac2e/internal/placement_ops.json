@@ -1,0 +1,352 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 10
+      }
+    },
+    "text": "The name of the lecture topic is 'Holistic Development and the Role of Education (Right Understanding, Relationship and Physical Facility)' as indicated in the nearby paragraph [blk_0009].",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 9
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 16
+      }
+    },
+    "text": "Date not provided.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 15
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "The document highlights that the reason for the gap between aspirations and current state is not explicitly detailed here. However, it raises this question as a reflective inquiry, particularly in the context of maintaining 'continuity of happiness and prosperity.' The text suggests the need to examine one's actions toward addressing this gap but does not provide specific explanations for its existence in this excerpt.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "The information requested is not available in the provided nearby sections of the document.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0005",
+    "task_id": "task_0005",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 49
+      }
+    },
+    "text": "It is getting filled.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 46
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0006",
+    "task_id": "task_0006",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "text": "The unhappiness in your family could stem from either lack of physical facilities or unmet relational fulfillment, depending on your family's specific priorities and imbalances. The document suggests reflecting on time/effort allocation: if physical needs are neglected while relational efforts are strong (or vice versa), this disparity likely contributes to distress. The key is to evaluate both factors through self-observation and adjust priorities accordingly.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0007",
+    "task_id": "task_0007",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 57
+      }
+    },
+    "text": "The investment of time and effort between physical facilities and relationship fulfillment varies by individual priorities, but generally: \n\n1. **Physical facilities** (housing, maintenance, resources) require consistent practical effort for comfort and stability. \n2. **Relationship fulfillment** demands ongoing emotional investment, communication, and intentional quality time. \n\nThe document suggests these factors might be prioritized differently (see Activity 3: Putting the Three in Priority Order). Unhappiness often stems from imbalance rather than absolute lack of either, implying both require attention but in different forms.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 56
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0008",
+    "task_id": "task_0008",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "text": "The reason for prioritizing understanding of oneself is that it forms the foundation for personal growth and decision-making. When we have a clear insight into our own beliefs, values, and motivations, it enables us to engage more effectively with others and navigate life's challenges.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 62
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0009",
+    "task_id": "task_0009",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "text": "The question of whether problems arise due to a lack of skills or values can depend on the specific context of each situation. However, common issues might include poor communication skills leading to misunderstandings, or a lack of ethical values resulting in unethical behavior. It is essential to address both aspects in problem-solving.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 82
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0010",
+    "task_id": "task_0010",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "text": "The context suggests a question about whether the situation is increasing or decreasing, possibly in reference to skills, values, or other factors impacting a problem. However, without additional specific information or context from the paragraphs, it's unclear how to determine whether the trend is positive (increasing) or negative (decreasing).",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 83
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0011",
+    "task_id": "task_0011",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 123
+      }
+    },
+    "text": "I see myself as an advocate for inclusive education, promoting access to quality learning experiences for all students, regardless of their backgrounds or abilities. Additionally, I envision taking on a mentor role, guiding both students and educators to foster a supportive and engaging learning environment.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 122
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0012",
+    "task_id": "task_0012",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 133
+      }
+    },
+    "text": "Holistic Development refers to the comprehensive growth of an individual, encompassing emotional, social, physical, and intellectual dimensions. It aims to nurture a person in a balanced way, ensuring they develop skills and values necessary for personal and societal well-being. Education\u2013sanskar plays a pivotal role in achieving holistic development by imparting not just knowledge, but also ethical values and social skills. It helps in shaping a person's character, instilling discipline, and fostering a sense of responsibility, thus contributing to the overall growth and integration of the individual within their community.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 132
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0013",
+    "task_id": "task_0013",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "text": "Yes, it is clear that basic aspirations typically center around continuous happiness and prosperity. These aspirations drive individuals to seek fulfillment and develop meaningful relationships, ultimately leading to a sense of well-being and success in various aspects of life.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0014",
+    "task_id": "task_0014",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "text": "Yes, it is apparent that fulfilling basic aspirations requires three essential elements: right understanding, fulfillment in relationships, and the provision of physical facilities.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "review_flags": []
+  }
+]

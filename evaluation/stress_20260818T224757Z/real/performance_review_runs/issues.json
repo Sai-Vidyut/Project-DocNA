@@ -1,0 +1,26 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'revenue target' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'leadership initiatives' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'measurable' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 0 answerable tasks detected; expected at least 3",
+    "task_id": null
+  }
+]

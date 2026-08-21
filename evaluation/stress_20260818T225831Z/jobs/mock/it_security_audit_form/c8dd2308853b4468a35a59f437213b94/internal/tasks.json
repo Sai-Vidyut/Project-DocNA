@@ -1,0 +1,90 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Document controls for each domain.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "List all privileged accounts",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0002",
+      "blk_0003",
+      "blk_0005",
+      "blk_0006"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "State mean time to patch critical CVEs",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0005",
+      "blk_0006",
+      "blk_0008",
+      "blk_0009"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "Summarize outstanding critical findings",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0012",
+      "blk_0013",
+      "blk_0015"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "table_item",
+    "prompt_text": "MFA enrollment rate",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011",
+      "blk_0012"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "table_item",
+    "prompt_text": "Last penetration test date",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0010",
+      "blk_0011",
+      "blk_0013",
+      "blk_0014"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.78,
+    "skip_reason": null
+  }
+]

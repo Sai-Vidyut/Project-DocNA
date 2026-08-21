@@ -1,0 +1,17 @@
+{
+  "job_id": "d5125651123c4a03a37d0c19bbeb7d05",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "93a060ebd4d53c4470d4204c0b6a085b6dd96de3781ead209f1a96d15fa1cd4e",
+  "original_filename": "no_answer_spaces.docx",
+  "created_at": "2026-08-18T22:33:20.711007Z",
+  "updated_at": "2026-08-18T22:33:49.006669Z",
+  "warnings": [
+    "headers_footers_skipped",
+    "review_recommended:task_0003:0.85",
+    "review_recommended:task_0002:0.75",
+    "review_recommended:task_0001:0.80"
+  ],
+  "errors": [],
+  "output_ready": true
+}

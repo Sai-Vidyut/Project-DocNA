@@ -1,0 +1,22 @@
+{
+  "job_id": "ef7a722328154945824d346999b7aadd",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "adab404348fc6fb5f0797c705883af1d6380af77be961ea00e55412220f63f72",
+  "original_filename": "newsletter_with_header.docx",
+  "created_at": "2026-08-18T22:59:58.909696Z",
+  "updated_at": "2026-08-18T22:59:59.002086Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.86",
+    "review_recommended:blk_0003:0.86",
+    "review_recommended:blk_0005:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

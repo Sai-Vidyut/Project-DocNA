@@ -1,0 +1,8 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+    "task_id": null
+  }
+]

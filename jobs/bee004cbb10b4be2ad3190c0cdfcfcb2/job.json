@@ -1,0 +1,16 @@
+{
+  "job_id": "bee004cbb10b4be2ad3190c0cdfcfcb2",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "235335a65c345bcc0edc43dcbdd64b05d0034fe7dd4a63f006c0908da1757d9c",
+  "original_filename": "1011.docx",
+  "created_at": "2026-08-20T11:38:33.411139Z",
+  "updated_at": "2026-08-20T11:39:38.854844Z",
+  "warnings": [
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": false,
+  "edited_task_ids": []
+}

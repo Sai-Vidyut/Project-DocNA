@@ -1,0 +1,485 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 10
+      }
+    },
+    "text": "[Your response]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 9
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 12
+      }
+    },
+    "text": "[Your response]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 11
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 14
+      }
+    },
+    "text": "[Your response]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 13
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 16
+      }
+    },
+    "text": "[Your response]",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 15
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0005",
+    "task_id": "task_0005",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "text": "The gap often stems from the fact that human aspiration is not satisfied by physical facilities alone. While an animal\u2019s needs can be met by basic material conditions, a human requires a holistic set of resources: material, relational and cognitive. If the environment supplies only the physical aspect, the individual remains in an animal\u2011like state of consciousness. To bridge the gap, one must cultivate relationships with other human beings and develop a right understanding of the self. Education and sanskar are intended to transform this deficiency, turning the limited, materially\u2011focused state into a fully human consciousness that aligns present reality with one\u2019s aspirations.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "review_flags": [
+      "shared_answer_space"
+    ]
+  },
+  {
+    "op_id": "op_0006",
+    "task_id": "task_0006",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "text": "To fill the gap between necessity and adequacy, the text suggests prioritizing three key areas: physical facility (with nature), relationship (with human beings), and right understanding (in the self). These form the foundation for holistic development, transforming 'animal consciousness' into 'human consciousness.'",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "review_flags": [
+      "shared_answer_space",
+      "chain_insert"
+    ]
+  },
+  {
+    "op_id": "op_0007",
+    "task_id": "task_0007",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "text": "The gap is likely 'getting wider' because physical facility alone is insufficient for holistic human fulfillment. The document emphasizes that without addressing relationships and self-understanding, the human aspiration for continuous happiness/prosperity remains unmet, creating a widening disparity between needs and solutions.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 48
+      }
+    },
+    "review_flags": [
+      "shared_answer_space",
+      "chain_insert"
+    ]
+  },
+  {
+    "op_id": "op_0008",
+    "task_id": "task_0008",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "text": "The text prioritizes fulfillment in relationships over physical facility. While physical necessity is baseline (even for animals), human unhappiness stems more from neglected relationships and right understanding, as physical adequacy alone does not satisfy the 'basic human aspiration' of continuous happiness.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 54
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0009",
+    "task_id": "task_0009",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 57
+      }
+    },
+    "text": "The document doesn't quantify time/effort but contrasts 'animal consciousness' (focused on physical facility) with 'human consciousness' (balanced focus on physical facility, relationships, and right understanding). It implies many devote excessive effort to physical needs while neglecting the latter two components.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 56
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0010",
+    "task_id": "task_0010",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 73
+      }
+    },
+    "text": "1. Physical facility is necessary but insufficient for human fulfillment; relationships and self-understanding are required.\n2. The distinction between 'animal consciousness' (focus on physical) and 'human consciousness' (balanced priorities).\n3. Holistic development requires transformation of consciousness through education/sanskar.\n4. Human aspiration is continuous happiness/prosperity, not just survival.\n5. The interplay between physical facility, relationships, and right understanding determines quality of life.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 73
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0011",
+    "task_id": "task_0011",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 79
+      }
+    },
+    "text": "[Your response] (e.g., inequality in access to resources, environmental neglect, lack of emotional connections, overemphasis on materialism, or systemic barriers to holistic education)",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 79
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0012",
+    "task_id": "task_0012",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 117
+      }
+    },
+    "text": "[Your response] (e.g., meaningful relationships, personal growth, contributing to community well-being, self-awareness, and balance between physical, emotional, and intellectual pursuits)",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 116
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0013",
+    "task_id": "task_0013",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 120
+      }
+    },
+    "text": "[Your response] (e.g., stress from unmet expectations, disconnection from purpose, prioritizing material gain over self-reflection, neglecting relationships, or feeling trapped in 'animal consciousness' patterns)",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 119
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0014",
+    "task_id": "task_0014",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 123
+      }
+    },
+    "text": "As per today's discussion, my role would be to facilitate transformation through education-sanskar. This involves consciously balancing physical facility, interpersonal relationships, and self-awareness in teaching practices. By prioritizing holistic development, I would help students shift from 'animal consciousness' (focused solely on physical needs) to 'human consciousness' (integrating all three essential pillars).",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 122
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0015",
+    "task_id": "task_0015",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 128
+      }
+    },
+    "text": "Animals rely on physical facility as sufficient for their needs, which aligns with 'animal consciousness.' Human beings, however, require not just physical facility (with nature), but also: 1) meaningful relationships with others, and 2) right understanding within the self. This triad - physical facility, relationships, and self-awareness - creates 'human consciousness,' which the text describes as essential for holistic development and continuous prosperity. Physical facility alone is inadequate for humans because it ignores the emotional/intellectual dimensions of existence.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 127
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0016",
+    "task_id": "task_0016",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 133
+      }
+    },
+    "text": "Holistic development is the transformation from animal consciousness to human consciousness, which requires not only physical facilities but also right understanding and healthy relationships, all in the correct priority order. Education\u2013sanskar plays a pivotal role by providing the values, mindset and learning experience necessary to facilitate this transformation.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 132
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0017",
+    "task_id": "task_0017",
+    "strategy": "fill_existing",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 138
+      }
+    },
+    "text": "Living with animal consciousness means focusing solely on physical facilities, while living with human consciousness means prioritizing right understanding first, then relationships, and finally physical facilities. Animal consciousness neglects the other two dimensions; human consciousness integrates all three with right priority.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 137
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0018",
+    "task_id": "task_0018",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "text": "Yes, the basic human aspiration is continuous happiness and prosperity, as stated in the lesson.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 143
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0019",
+    "task_id": "task_0019",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "text": "Yes, to fulfill basic aspirations one must have right understanding, fulfilment in relationships, and physical facilities, with the right priorities as described in the material.",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 144
+      }
+    },
+    "review_flags": []
+  }
+]

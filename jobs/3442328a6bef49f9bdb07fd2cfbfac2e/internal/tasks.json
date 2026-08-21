@@ -1,0 +1,211 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Name",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011",
+      "blk_0012"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Date",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0014",
+      "blk_0015",
+      "blk_0017",
+      "blk_0018"
+    ],
+    "answer_space_id": "space_0004",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "If there is a gap between what you want and your present state \u2014 why this gap?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "What are you doing to fill it?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.8,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "question",
+    "prompt_text": "Is it getting filled or getting wider?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "question",
+    "prompt_text": "Is the unhappiness in our family more due to lack of physical facility, or more due to lack of fulfilment in relationship?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0053",
+      "blk_0054",
+      "blk_0056",
+      "blk_0057"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0007",
+    "kind": "question",
+    "prompt_text": "How much time & effort do I invest for physical facility vs. for fulfilment in relationship?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0055",
+      "blk_0056",
+      "blk_0058",
+      "blk_0059"
+    ],
+    "answer_space_id": "space_0008",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0008",
+    "kind": "question",
+    "prompt_text": "Why?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0061",
+      "blk_0062",
+      "blk_0064",
+      "blk_0065"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0009",
+    "kind": "question",
+    "prompt_text": "Due to lack of skills or values?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0081",
+      "blk_0082",
+      "blk_0084",
+      "blk_0085"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0010",
+    "kind": "question",
+    "prompt_text": "Increasing or decreasing?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0082",
+      "blk_0083",
+      "blk_0085",
+      "blk_0086"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0011",
+    "kind": "question",
+    "prompt_text": "C5. Based on today's discussion, what role do you see for yourself in the education system?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0121",
+      "blk_0122",
+      "blk_0124",
+      "blk_0125"
+    ],
+    "answer_space_id": "space_0044",
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0012",
+    "kind": "question",
+    "prompt_text": "Q2. What is meant by Holistic Development, and what is the role of education\u2013sanskar in achieving it?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0131",
+      "blk_0132",
+      "blk_0134",
+      "blk_0135"
+    ],
+    "answer_space_id": "space_0051",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0013",
+    "kind": "question",
+    "prompt_text": "\u2022\tAre you able to see that your basic aspirations are for continuous happiness and prosperity?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0142",
+      "blk_0143",
+      "blk_0145",
+      "blk_0146"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0014",
+    "kind": "question",
+    "prompt_text": "\u2022\tCan you see that to fulfil your basic aspirations, three things are required \u2014 right understanding, fulfilment in relationship, and physical facility?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0143",
+      "blk_0144",
+      "blk_0146"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  }
+]

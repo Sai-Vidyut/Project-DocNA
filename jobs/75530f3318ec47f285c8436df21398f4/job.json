@@ -1,0 +1,16 @@
+{
+  "job_id": "75530f3318ec47f285c8436df21398f4",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "41a449e74cf3425e21e6722827d9eb43e6da2caeb0e99709b359b9aa4e2bb964",
+  "original_filename": "blank_lines.docx",
+  "created_at": "2026-08-18T22:32:55.804135Z",
+  "updated_at": "2026-08-18T22:33:55.066799Z",
+  "warnings": [
+    "review_recommended:blk_0005:0.85",
+    "headers_footers_skipped",
+    "review_recommended:task_0001:0.85"
+  ],
+  "errors": [],
+  "output_ready": true
+}

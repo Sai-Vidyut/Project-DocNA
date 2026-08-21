@@ -1,0 +1,75 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Complete shaded cells only. Leave N/A where appropriate.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Describe symptom onset and duration",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0013",
+      "blk_0014",
+      "blk_0016"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "table_item",
+    "prompt_text": "Date of visit",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0004",
+      "blk_0005",
+      "blk_0007",
+      "blk_0008"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "table_item",
+    "prompt_text": "Primary complaint",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0007",
+      "blk_0008",
+      "blk_0010",
+      "blk_0011"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.78,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "table_item",
+    "prompt_text": "Current medications",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0010",
+      "blk_0011",
+      "blk_0013",
+      "blk_0014"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.78,
+    "skip_reason": null
+  }
+]

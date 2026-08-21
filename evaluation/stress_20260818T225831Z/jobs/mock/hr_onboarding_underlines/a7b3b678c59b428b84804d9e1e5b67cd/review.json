@@ -1,0 +1,170 @@
+{
+  "job_id": "a7b3b678c59b428b84804d9e1e5b67cd",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 6,
+    "answers_generated": 6,
+    "items_skipped": 0,
+    "items_needing_review": 2
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Legal name: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "ambiguous_space",
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "No suitable answer space was found.",
+      "needs_review": true,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "State your preferred pronouns",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "List emergency contact name and phone",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for List emergency contact name and phone",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Describe any workplace accommodations needed",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for Describe any workplace accommodations ne",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0006",
+      "task_text": "______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for ______________________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0007",
+      "task_text": "________________________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for ________________________________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Legal name: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "ambiguous_space",
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "No suitable answer space was found.",
+      "needs_review": true,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "Complete all fields on your first day.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_text": null,
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "placement_label": "Not placed",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null,
+      "attention_reason": "This is an instruction, not a question.",
+      "needs_review": true,
+      "editable": false,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0003:0.85",
+    "ambiguous_answer_space:blk_0003",
+    "review_recommended:blk_0004:0.88",
+    "review_recommended:blk_0008:0.88",
+    "review_recommended:blk_0010:0.88",
+    "review_recommended:blk_0005:0.85",
+    "review_recommended:blk_0007:0.85",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

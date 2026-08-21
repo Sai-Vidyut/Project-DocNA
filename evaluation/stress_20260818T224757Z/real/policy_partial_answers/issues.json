@@ -1,0 +1,26 @@
+[
+  {
+    "layer": "detection",
+    "severity": "warning",
+    "message": "Already-answered item not skipped: Have you read the code of conduct?",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 1 answerable tasks detected; expected at least 2",
+    "task_id": null
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0001"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "workspace_id": "75530f3318ec47f285c8436df21398f4",
+  "job_id": "75530f3318ec47f285c8436df21398f4",
+  "document_name": "blank_lines.docx",
+  "display_name": "blank_lines",
+  "created_at": "2026-08-18T22:32:55.804135Z",
+  "updated_at": "2026-08-18T22:33:55.066799Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "blank_lines_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

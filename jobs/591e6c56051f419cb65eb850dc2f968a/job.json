@@ -1,0 +1,30 @@
+{
+  "job_id": "591e6c56051f419cb65eb850dc2f968a",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "235335a65c345bcc0edc43dcbdd64b05d0034fe7dd4a63f006c0908da1757d9c",
+  "original_filename": "1011.docx",
+  "created_at": "2026-08-20T11:44:13.980427Z",
+  "updated_at": "2026-08-20T11:45:35.477537Z",
+  "warnings": [
+    "semantic_chunk_provider_error:BadRequestError",
+    "review_recommended:blk_0010:0.78",
+    "review_recommended:blk_0012:0.78",
+    "review_recommended:blk_0014:0.78",
+    "review_recommended:blk_0016:0.78",
+    "review_recommended:blk_0049:0.80",
+    "review_recommended:blk_0074:0.88",
+    "review_recommended:blk_0080:0.88",
+    "review_recommended:blk_0117:0.88",
+    "review_recommended:blk_0120:0.88",
+    "review_recommended:blk_0123:0.88",
+    "review_recommended:blk_0128:0.88",
+    "review_recommended:blk_0133:0.88",
+    "review_recommended:blk_0138:0.88",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": false,
+  "edited_task_ids": []
+}

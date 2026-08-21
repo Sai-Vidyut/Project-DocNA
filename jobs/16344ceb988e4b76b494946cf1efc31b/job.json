@@ -1,0 +1,14 @@
+{
+  "job_id": "16344ceb988e4b76b494946cf1efc31b",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "706d782c01ce77cdd5760f2e298577223d6e99e263132a61be65507236026e87",
+  "original_filename": "numbered_subquestions.docx",
+  "created_at": "2026-08-18T22:34:07.818442Z",
+  "updated_at": "2026-08-18T22:34:36.704947Z",
+  "warnings": [
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true
+}

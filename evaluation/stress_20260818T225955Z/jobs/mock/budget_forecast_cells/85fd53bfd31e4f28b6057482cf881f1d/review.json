@@ -1,0 +1,90 @@
+{
+  "job_id": "85fd53bfd31e4f28b6057482cf881f1d",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 4,
+    "answers_generated": 4,
+    "items_skipped": 0,
+    "items_needing_review": 0
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Explain major variances from prior quarter",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "Personnel",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_cell",
+      "placement_label": "Table cell",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "Software",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_text": "Answer for Software",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_cell",
+      "placement_label": "Table cell",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Travel",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_text": "Answer for Travel",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_cell",
+      "placement_label": "Table cell",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [],
+  "warnings": [
+    "review_recommended:blk_0015:0.88",
+    "review_recommended:blk_0006:0.78",
+    "review_recommended:blk_0009:0.78",
+    "review_recommended:blk_0012:0.78",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

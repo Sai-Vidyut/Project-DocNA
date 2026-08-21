@@ -1,0 +1,92 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "1. Summarize the project in one sentence.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0002",
+      "blk_0003",
+      "blk_0005",
+      "blk_0006"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.85,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "2. Describe target beneficiaries.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0004",
+      "blk_0005",
+      "blk_0007",
+      "blk_0008"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "sub_question",
+    "prompt_text": "a) Primary audience",
+    "parent_task_id": "task_0002",
+    "context_block_ids": [
+      "blk_0005",
+      "blk_0006",
+      "blk_0008",
+      "blk_0009"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "sub_question",
+    "prompt_text": "b) Secondary audience",
+    "parent_task_id": "task_0003",
+    "context_block_ids": [
+      "blk_0007",
+      "blk_0008",
+      "blk_0010",
+      "blk_0011"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "fill_blank",
+    "prompt_text": "Estimated reach: ______________________________",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011",
+      "blk_0012"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.85,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "question",
+    "prompt_text": "3. Why is this project urgent?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0009",
+      "blk_0010",
+      "blk_0012",
+      "blk_0013"
+    ],
+    "answer_space_id": "space_0004",
+    "confidence": 0.92,
+    "skip_reason": null
+  }
+]

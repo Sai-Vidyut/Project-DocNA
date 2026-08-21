@@ -1,0 +1,90 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Provide detailed responses. If a question does not apply, write N/A.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Explain in full detail the sequence of events on the date in question, including all persons present, communications exchanged, and documents reviewed.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0002",
+      "blk_0004",
+      "blk_0005"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "State whether you reviewed Exhibit A prior to signing",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0003",
+      "blk_0004",
+      "blk_0006",
+      "blk_0007"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "Identify all individuals with knowledge of the contract terms",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0005",
+      "blk_0006",
+      "blk_0008",
+      "blk_0009"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "question",
+    "prompt_text": "Describe any amendments discussed after execution",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0006",
+      "blk_0007",
+      "blk_0009",
+      "blk_0010"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "question",
+    "prompt_text": "List every email thread referenced in paragraph 12",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0007",
+      "blk_0008",
+      "blk_0010"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.88,
+    "skip_reason": null
+  }
+]

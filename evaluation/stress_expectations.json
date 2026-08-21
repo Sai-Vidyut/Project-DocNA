@@ -1,0 +1,266 @@
+{
+  "budget_forecast_cells.docx": {
+    "description": "budget forecast cells",
+    "mock_task_count": 4,
+    "mock_answerable_count": 4,
+    "min_answerable_tasks": 4,
+    "must_detect": [
+      "Personnel",
+      "Software",
+      "Travel",
+      "Explain major variances from prior quarter"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "clinical_intake_merged.docx": {
+    "description": "clinical intake merged",
+    "mock_task_count": 3,
+    "mock_answerable_count": 3,
+    "min_answerable_tasks": 3,
+    "must_detect": [
+      "Date of visit",
+      "Primary complaint",
+      "Current medications"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "construction_rfp_tables.docx": {
+    "description": "construction rfp tables",
+    "mock_task_count": 4,
+    "mock_answerable_count": 4,
+    "min_answerable_tasks": 4,
+    "must_detect": [
+      "a) Mobilization plan",
+      "b) Disposal requirements",
+      "Concrete pour",
+      "Steel erection"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "course_syllabus_breaks.docx": {
+    "description": "course syllabus breaks",
+    "mock_task_count": 5,
+    "mock_answerable_count": 5,
+    "min_answerable_tasks": 5,
+    "must_detect": [
+      "1. Define polymorphism.",
+      "2. Compare stack vs heap allocation.",
+      "3. Explain cache locality.",
+      "a) Temporal locality",
+      "4. When should you prefer mmap over read()"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "debate_worksheet.docx": {
+    "description": "debate worksheet",
+    "mock_task_count": 3,
+    "mock_answerable_count": 3,
+    "min_answerable_tasks": 3,
+    "must_detect": [
+      "State your thesis",
+      "supporting points",
+      "counterargument"
+    ],
+    "must_not_detect": [
+      "Example thesis:"
+    ],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "grant_proposal_messy.docx": {
+    "description": "grant proposal messy",
+    "mock_task_count": 6,
+    "mock_answerable_count": 6,
+    "min_answerable_tasks": 6,
+    "must_detect": [
+      "1. Summarize the project in one sentence.",
+      "2. Describe target beneficiaries.",
+      "a) Primary audience",
+      "b) Secondary audience",
+      "Estimated reach: ______________________________"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "hr_onboarding_underlines.docx": {
+    "description": "hr onboarding underlines",
+    "mock_task_count": 4,
+    "mock_answerable_count": 3,
+    "min_answerable_tasks": 3,
+    "must_detect": [
+      "Legal name: ______________________________",
+      "______________________________",
+      "________________________________________"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [
+      "Complete all fields on your first day."
+    ],
+    "must_mark_already_answered": []
+  },
+  "internship_multibreak.docx": {
+    "description": "internship multibreak",
+    "mock_task_count": 1,
+    "mock_answerable_count": 1,
+    "min_answerable_tasks": 1,
+    "must_detect": [
+      "University: ________________"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "interview_no_blanks.docx": {
+    "description": "interview no blanks",
+    "mock_task_count": 0,
+    "mock_answerable_count": 0,
+    "min_answerable_tasks": 4,
+    "must_detect": [
+      "complex project you led",
+      "prioritize conflicting deadlines",
+      "failure and what you learned"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "it_security_audit_form.docx": {
+    "description": "it security audit form",
+    "mock_task_count": 4,
+    "mock_answerable_count": 4,
+    "min_answerable_tasks": 4,
+    "must_detect": [
+      "List all privileged accounts",
+      "State mean time to patch critical CVEs",
+      "MFA enrollment rate",
+      "Last penetration test date"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "legal_deposition_long.docx": {
+    "description": "legal deposition long",
+    "mock_task_count": 1,
+    "mock_answerable_count": 1,
+    "min_answerable_tasks": 1,
+    "must_detect": [
+      "Explain in full detail the sequence of events on the date in"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "medical_history_shaded.docx": {
+    "description": "medical history shaded",
+    "mock_task_count": 2,
+    "mock_answerable_count": 2,
+    "min_answerable_tasks": 2,
+    "must_detect": [
+      "Hypertension",
+      "Asthma"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "memo_unstructured.docx": {
+    "description": "memo unstructured",
+    "mock_task_count": 2,
+    "mock_answerable_count": 2,
+    "min_answerable_tasks": 2,
+    "must_detect": [
+      "For discussion only: Should we change vendors?",
+      "Budget owner: ____________"
+    ],
+    "must_not_detect": [
+      "For discussion only"
+    ],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "newsletter_with_header.docx": {
+    "description": "newsletter with header",
+    "mock_task_count": 1,
+    "mock_answerable_count": 1,
+    "min_answerable_tasks": 1,
+    "must_detect": [
+      "Comments: ______________________________"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "performance_review_runs.docx": {
+    "description": "performance review runs",
+    "mock_task_count": 0,
+    "mock_answerable_count": 0,
+    "min_answerable_tasks": 3,
+    "must_detect": [
+      "revenue target",
+      "leadership initiatives",
+      "measurable"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "policy_partial_answers.docx": {
+    "description": "policy partial answers",
+    "mock_task_count": 1,
+    "mock_answerable_count": 1,
+    "min_answerable_tasks": 2,
+    "must_detect": [
+      "Have you read the code of conduct?"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": [
+      "Have you read the code of conduct",
+      "Date acknowledged"
+    ]
+  },
+  "research_survey_dense.docx": {
+    "description": "research survey dense",
+    "mock_task_count": 0,
+    "mock_answerable_count": 0,
+    "min_answerable_tasks": 3,
+    "must_detect": [
+      "age range",
+      "statistical software",
+      "recruiting diverse"
+    ],
+    "must_not_detect": [
+      "Example response format"
+    ],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": []
+  },
+  "volunteer_mixed_completion.docx": {
+    "description": "volunteer mixed completion",
+    "mock_task_count": 4,
+    "mock_answerable_count": 4,
+    "min_answerable_tasks": 2,
+    "must_detect": [
+      "Volunteer ID?",
+      "Primary phone number?",
+      "Preferred volunteer shift?",
+      "Background check completed?"
+    ],
+    "must_not_detect": [],
+    "must_classify_instruction": [],
+    "must_mark_already_answered": [
+      "Volunteer ID",
+      "Background check completed"
+    ]
+  }
+}

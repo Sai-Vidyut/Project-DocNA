@@ -1,0 +1,32 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+    "task_id": null
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0002"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0002"
+  }
+]

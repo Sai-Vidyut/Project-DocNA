@@ -1,0 +1,19 @@
+{
+  "workspace_id": "84bb0c80b2454320a21dfa4ff6bda54b",
+  "job_id": "84bb0c80b2454320a21dfa4ff6bda54b",
+  "document_name": "multi_section_form.docx",
+  "display_name": "multi_section_form",
+  "created_at": "2026-08-18T22:34:32.739176Z",
+  "updated_at": "2026-08-18T22:35:01.476377Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "multi_section_form_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

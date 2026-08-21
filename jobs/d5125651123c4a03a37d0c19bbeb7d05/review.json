@@ -1,0 +1,57 @@
+{
+  "job_id": "d5125651123c4a03a37d0c19bbeb7d05",
+  "status": "completed",
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "How does supply chain disruption affect pricing?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.8,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "What role does government policy play in inflation?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.75,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "How might technology change logistics in the next decade?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.85,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0004",
+      "task_text": "Consider the following questions for group discussion. No written response required.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null
+    }
+  ],
+  "warnings": [
+    "headers_footers_skipped",
+    "review_recommended:task_0003:0.85",
+    "review_recommended:task_0002:0.75",
+    "review_recommended:task_0001:0.80"
+  ]
+}

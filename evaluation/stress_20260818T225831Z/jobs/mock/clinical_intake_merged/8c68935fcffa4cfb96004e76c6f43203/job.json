@@ -1,0 +1,24 @@
+{
+  "job_id": "8c68935fcffa4cfb96004e76c6f43203",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "c82e3e8a1ba23fcc1efdb2d2861421e5277d947b54d32b5a4870c61ea9f107b3",
+  "original_filename": "clinical_intake_merged.docx",
+  "created_at": "2026-08-18T22:58:32.068201Z",
+  "updated_at": "2026-08-18T22:58:32.177216Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0015:0.88",
+    "review_recommended:blk_0006:0.78",
+    "review_recommended:blk_0009:0.78",
+    "review_recommended:blk_0012:0.78",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

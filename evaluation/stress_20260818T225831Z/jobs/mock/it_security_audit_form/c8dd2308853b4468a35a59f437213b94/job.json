@@ -1,0 +1,25 @@
+{
+  "job_id": "c8dd2308853b4468a35a59f437213b94",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "37f8a58459b1dd17c3e5e95cd86acca3b8a446f0cbdd396b3aca26d12e5cd642",
+  "original_filename": "it_security_audit_form.docx",
+  "created_at": "2026-08-18T22:58:33.979692Z",
+  "updated_at": "2026-08-18T22:58:34.105463Z",
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0004:0.88",
+    "review_recommended:blk_0007:0.88",
+    "review_recommended:blk_0014:0.88",
+    "review_recommended:blk_0010:0.78",
+    "review_recommended:blk_0012:0.78",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

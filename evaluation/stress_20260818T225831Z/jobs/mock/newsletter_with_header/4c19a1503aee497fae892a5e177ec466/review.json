@@ -1,0 +1,58 @@
+{
+  "job_id": "4c19a1503aee497fae892a5e177ec466",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 1,
+    "answers_generated": 1,
+    "items_skipped": 0,
+    "items_needing_review": 1
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Comments: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Comments: ______________________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Comments: ______________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_text": "Answer for Comments: ______________________________",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null,
+      "attention_reason": "The answer may not fit the available space.",
+      "needs_review": true,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0005:0.85",
+    "headers_footers_skipped"
+  ],
+  "download_ready": false
+}

@@ -1,0 +1,22 @@
+{
+  "job_id": "f1dede69c70b4502b0adca0853ce7f9a",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+  "original_filename": "interview_no_blanks.docx",
+  "created_at": "2026-08-18T22:58:33.753744Z",
+  "updated_at": "2026-08-18T22:58:33.875173Z",
+  "warnings": [
+    "review_recommended:blk_0003:0.88",
+    "review_recommended:blk_0004:0.86",
+    "review_recommended:blk_0005:0.88",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

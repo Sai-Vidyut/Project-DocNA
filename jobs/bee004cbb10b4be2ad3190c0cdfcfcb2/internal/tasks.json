@@ -1,0 +1,384 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "fill_blank",
+    "prompt_text": "Name",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011",
+      "blk_0012"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "fill_blank",
+    "prompt_text": "Reg. No.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0010",
+      "blk_0011",
+      "blk_0013",
+      "blk_0014"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "fill_blank",
+    "prompt_text": "Branch / Sec.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0012",
+      "blk_0013",
+      "blk_0015",
+      "blk_0016"
+    ],
+    "answer_space_id": "space_0003",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "fill_blank",
+    "prompt_text": "Date",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0014",
+      "blk_0015",
+      "blk_0017",
+      "blk_0018"
+    ],
+    "answer_space_id": "space_0004",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "question",
+    "prompt_text": "If there is a gap between what you want and your present state \u2014 why this gap?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0006",
+    "kind": "question",
+    "prompt_text": "What are you doing to fill it?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0007",
+    "kind": "question",
+    "prompt_text": "Is it getting filled or getting wider?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0047",
+      "blk_0048",
+      "blk_0050",
+      "blk_0051"
+    ],
+    "answer_space_id": "space_0006",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0008",
+    "kind": "table_item",
+    "prompt_text": "Is the unhappiness in our family more due to lack of physical facility, or more due to lack of fulfilment in relationship?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0053",
+      "blk_0054",
+      "blk_0056",
+      "blk_0057"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0009",
+    "kind": "table_item",
+    "prompt_text": "How much time & effort do I invest for physical facility vs. for fulfilment in relationship?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0055",
+      "blk_0056",
+      "blk_0058",
+      "blk_0059"
+    ],
+    "answer_space_id": "space_0008",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0010",
+    "kind": "question",
+    "prompt_text": "C1. Five key take-aways from today (most important first):",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0072",
+      "blk_0073",
+      "blk_0075",
+      "blk_0076"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0011",
+    "kind": "question",
+    "prompt_text": "C2. Five key problems you notice around you (most severe first):",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0078",
+      "blk_0079",
+      "blk_0081",
+      "blk_0082"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0012",
+    "kind": "question",
+    "prompt_text": "C3. Five things that give you happiness in continuity:",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0115",
+      "blk_0116",
+      "blk_0118",
+      "blk_0119"
+    ],
+    "answer_space_id": "space_0040",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0013",
+    "kind": "question",
+    "prompt_text": "C4. Five things that make you feel unhappy:",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0118",
+      "blk_0119",
+      "blk_0121",
+      "blk_0122"
+    ],
+    "answer_space_id": "space_0042",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0014",
+    "kind": "question",
+    "prompt_text": "C5. Based on today's discussion, what role do you see for yourself in the education system?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0121",
+      "blk_0122",
+      "blk_0124",
+      "blk_0125"
+    ],
+    "answer_space_id": "space_0044",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0015",
+    "kind": "question",
+    "prompt_text": "Q1. For a human being, \u201cphysical facility is necessary but something more is also required.\u201d Explain the fundamental difference between animals and human beings on this basis.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0126",
+      "blk_0127",
+      "blk_0129",
+      "blk_0130"
+    ],
+    "answer_space_id": "space_0047",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0016",
+    "kind": "question",
+    "prompt_text": "Q2. What is meant by Holistic Development, and what is the role of education\u2013sanskar in achieving it?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0131",
+      "blk_0132",
+      "blk_0134",
+      "blk_0135"
+    ],
+    "answer_space_id": "space_0051",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0017",
+    "kind": "question",
+    "prompt_text": "Q3. Distinguish between living with Animal Consciousness and living with Human Consciousness, explaining the place of right understanding, relationship and physical facility in the correct priority.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0136",
+      "blk_0137",
+      "blk_0139",
+      "blk_0140"
+    ],
+    "answer_space_id": "space_0055",
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0018",
+    "kind": "question",
+    "prompt_text": "\u2022\tAre you able to see that your basic aspirations are for continuous happiness and prosperity?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0142",
+      "blk_0143",
+      "blk_0145",
+      "blk_0146"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0019",
+    "kind": "question",
+    "prompt_text": "\u2022\tCan you see that to fulfil your basic aspirations, three things are required \u2014 right understanding, fulfilment in relationship, and physical facility?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0143",
+      "blk_0144",
+      "blk_0146"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0020",
+    "kind": "fill_blank",
+    "prompt_text": "",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0009",
+      "blk_0010",
+      "blk_0012",
+      "blk_0013"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.9,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0021",
+    "kind": "instruction",
+    "prompt_text": "How to Engage with this Session (The Process)",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0022",
+    "kind": "instruction",
+    "prompt_text": "\u2022 Whatever is said is a proposal \u2014 do not assume it to be true or false.",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0023",
+    "kind": "instruction",
+    "prompt_text": "\u2022 Verify it on your own right, on the basis of your natural acceptance.",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0024",
+    "kind": "instruction",
+    "prompt_text": "\u2022 It is a dialogue: first between you and the teacher, then within your own self \u2014",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0025",
+    "kind": "instruction",
+    "prompt_text": "between what you are and what you really want to be.",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0026",
+    "kind": "instruction",
+    "prompt_text": "Tick your honest response in each column.",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0027",
+    "kind": "instruction",
+    "prompt_text": "Number these 1\u20132\u20133 in the order of priority you would naturally accept, and write one line on why.",
+    "parent_task_id": null,
+    "context_block_ids": [],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0028",
+    "kind": "question",
+    "prompt_text": "\u2022\tDoes our education need content and process to include all three? Evaluate present education and the way forward.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0144",
+      "blk_0145"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.95,
+    "skip_reason": null
+  }
+]

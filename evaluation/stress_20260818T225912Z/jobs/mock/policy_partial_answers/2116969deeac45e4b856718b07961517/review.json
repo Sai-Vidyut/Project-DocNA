@@ -1,0 +1,111 @@
+{
+  "job_id": "2116969deeac45e4b856718b07961517",
+  "status": "completed",
+  "summary": {
+    "questions_detected": 3,
+    "answers_generated": 3,
+    "items_skipped": 0,
+    "items_needing_review": 2
+  },
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Confirm each statement.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress single edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "List any conflicts of interest",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Stress multi edited answer.",
+      "answer_confidence": 0.95,
+      "placement_strategy": "insert_below",
+      "placement_label": "Inserted below question",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": true,
+      "answer_source": "user"
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "Supervisor name if applicable",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_text": "Answer for Supervisor name if applicable",
+      "answer_confidence": 0.95,
+      "placement_strategy": "fill_existing",
+      "placement_label": "Existing answer space",
+      "review_flags": [],
+      "skip_reason": null,
+      "attention_reason": null,
+      "needs_review": false,
+      "editable": true,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0002",
+      "task_text": "Have you read the code of conduct?",
+      "task_kind": "question",
+      "answer_status": "skipped:already_answered",
+      "answer_text": "Answer for Have you read the code of conduct?",
+      "answer_confidence": 0.95,
+      "placement_strategy": "skip",
+      "placement_label": "Not placed",
+      "review_flags": [
+        "already_answered"
+      ],
+      "skip_reason": "already_answered",
+      "attention_reason": "This item was already answered in the document.",
+      "needs_review": true,
+      "editable": false,
+      "edited": false,
+      "answer_source": "ai"
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Date acknowledged",
+      "task_kind": "question",
+      "answer_status": "skipped:already_answered",
+      "answer_text": "Answer for Date acknowledged",
+      "answer_confidence": 0.95,
+      "placement_strategy": "skip",
+      "placement_label": "Not placed",
+      "review_flags": [
+        "already_answered"
+      ],
+      "skip_reason": "already_answered",
+      "attention_reason": "This item was already answered in the document.",
+      "needs_review": true,
+      "editable": false,
+      "edited": false,
+      "answer_source": "ai"
+    }
+  ],
+  "warnings": [
+    "review_recommended:blk_0002:0.88",
+    "review_recommended:blk_0005:0.88",
+    "review_recommended:blk_0010:0.80",
+    "headers_footers_skipped"
+  ],
+  "download_ready": true
+}

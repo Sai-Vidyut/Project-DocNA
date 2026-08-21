@@ -1,0 +1,19 @@
+{
+  "workspace_id": "abed959899334e89a9cb1f220b0d36b2",
+  "job_id": "abed959899334e89a9cb1f220b0d36b2",
+  "document_name": "table_heavy_questionnaire.docx",
+  "display_name": "table_heavy_questionnaire",
+  "created_at": "2026-08-18T22:33:45.588303Z",
+  "updated_at": "2026-08-18T22:34:07.685147Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "table_heavy_questionnaire_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

@@ -1,0 +1,19 @@
+{
+  "workspace_id": "265c24c06a0a47be93e6ae0233bcd089",
+  "job_id": "265c24c06a0a47be93e6ae0233bcd089",
+  "document_name": "1011.docx",
+  "display_name": "1011",
+  "created_at": "2026-08-19T17:28:18.994284Z",
+  "updated_at": "2026-08-19T17:28:49.516497Z",
+  "status": "needs_input",
+  "questions_detected": 19,
+  "answers_generated": 19,
+  "items_remaining": 7,
+  "items_needing_review": 5,
+  "edited_task_ids": [],
+  "export_filename": "1011_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

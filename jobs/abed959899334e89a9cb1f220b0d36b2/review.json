@@ -1,0 +1,110 @@
+{
+  "job_id": "abed959899334e89a9cb1f220b0d36b2",
+  "status": "completed",
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Any known allergies?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "Blood pressure",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_confidence": 1.0,
+      "placement_strategy": "fill_cell",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "Cholesterol",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "fill_cell",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Blood glucose",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_confidence": 1.0,
+      "placement_strategy": "fill_cell",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "Aspirin",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_confidence": 1.0,
+      "placement_strategy": "fill_cell",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0006",
+      "task_text": "Metformin",
+      "task_kind": "table_item",
+      "answer_status": "answered",
+      "answer_confidence": 1.0,
+      "placement_strategy": "fill_cell",
+      "review_flags": [],
+      "skip_reason": null
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0007",
+      "task_text": "Complete the tables below. Use N/A if not applicable.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null
+    }
+  ],
+  "warnings": [
+    "semantic_unknown_block_id:tbl_0001 r0c0",
+    "semantic_unknown_block_id:tbl_0001 r0c1",
+    "semantic_unknown_block_id:tbl_0001 r0c2",
+    "semantic_unknown_block_id:tbl_0001 r1c0",
+    "semantic_unknown_block_id:tbl_0001 r1c1",
+    "semantic_unknown_block_id:tbl_0001 r1c2",
+    "semantic_unknown_block_id:tbl_0001 r2c0",
+    "semantic_unknown_block_id:tbl_0001 r2c1",
+    "semantic_unknown_block_id:tbl_0001 r2c2",
+    "semantic_unknown_block_id:tbl_0001 r3c0",
+    "semantic_unknown_block_id:tbl_0001 r3c1",
+    "semantic_unknown_block_id:tbl_0001 r3c2",
+    "semantic_unknown_block_id:tbl_0002 r0c0",
+    "semantic_unknown_block_id:tbl_0002 r0c1",
+    "semantic_unknown_block_id:tbl_0002 r0c2",
+    "semantic_unknown_block_id:tbl_0002 r1c0",
+    "semantic_unknown_block_id:tbl_0002 r1c1",
+    "semantic_unknown_block_id:tbl_0002 r1c2",
+    "semantic_unknown_block_id:tbl_0002 r2c0",
+    "semantic_unknown_block_id:tbl_0002 r2c1",
+    "semantic_unknown_block_id:tbl_0002 r2c2",
+    "review_recommended:blk_0006:0.78",
+    "review_recommended:blk_0009:0.78",
+    "review_recommended:blk_0012:0.78",
+    "review_recommended:blk_0020:0.78",
+    "review_recommended:blk_0023:0.78",
+    "headers_footers_skipped"
+  ]
+}

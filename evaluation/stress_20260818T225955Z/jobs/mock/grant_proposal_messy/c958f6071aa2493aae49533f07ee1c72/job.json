@@ -1,0 +1,21 @@
+{
+  "job_id": "c958f6071aa2493aae49533f07ee1c72",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "83cf448b9f7715cb4d2dc4f9e588cdd6720c965f18119725414bec8cbffa3ed5",
+  "original_filename": "grant_proposal_messy.docx",
+  "created_at": "2026-08-18T22:59:57.078721Z",
+  "updated_at": "2026-08-18T22:59:57.213806Z",
+  "warnings": [
+    "review_recommended:blk_0004:0.85",
+    "review_recommended:blk_0010:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

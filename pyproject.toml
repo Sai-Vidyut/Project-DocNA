@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docna"
+version = "0.1.0"
+description = "Detect questions in documents, generate answers, and write them back."
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "lxml>=5.0",
+    "pydantic>=2.7",
+    "python-docx>=1.1",
+    "python-multipart>=0.0.9",
+    "uvicorn[standard]>=0.30",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx>=0.27",
+    "pytest>=8",
+]
+openai = [
+    "openai>=1.40",
+]
+
+[project.scripts]
+docna = "docna.cli:main"
+
+[tool.setuptools.package-data]
+docna = ["py.typed"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = ["-q"]

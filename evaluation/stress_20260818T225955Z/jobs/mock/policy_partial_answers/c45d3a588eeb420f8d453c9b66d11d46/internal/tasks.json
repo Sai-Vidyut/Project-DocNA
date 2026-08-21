@@ -1,0 +1,75 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Confirm each statement.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Have you read the code of conduct?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0002",
+      "blk_0004",
+      "blk_0005"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.92,
+    "skip_reason": "already_answered"
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "List any conflicts of interest",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0003",
+      "blk_0004",
+      "blk_0006",
+      "blk_0007"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "Date acknowledged",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0006",
+      "blk_0007",
+      "blk_0009",
+      "blk_0010"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.8,
+    "skip_reason": "already_answered"
+  },
+  {
+    "task_id": "task_0005",
+    "kind": "question",
+    "prompt_text": "Supervisor name if applicable",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011"
+    ],
+    "answer_space_id": "space_0005",
+    "confidence": 0.8,
+    "skip_reason": null
+  }
+]

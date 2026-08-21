@@ -1,0 +1,84 @@
+[
+  {
+    "op_id": "op_0001",
+    "task_id": "task_0001",
+    "strategy": "insert_below",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 3
+      }
+    },
+    "text": "Answer for Explain major variances from prior quart",
+    "style_clone_from": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "paragraph",
+        "part": "word/document.xml",
+        "body_index": 3
+      }
+    },
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0002",
+    "task_id": "task_0002",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 1,
+        "col": 2
+      }
+    },
+    "text": "Answer for Personnel",
+    "style_clone_from": null,
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0003",
+    "task_id": "task_0003",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 2,
+        "col": 2
+      }
+    },
+    "text": "Answer for Software",
+    "style_clone_from": null,
+    "review_flags": []
+  },
+  {
+    "op_id": "op_0004",
+    "task_id": "task_0004",
+    "strategy": "fill_cell",
+    "target": {
+      "adapter": "docx",
+      "payload": {
+        "v": 1,
+        "kind": "cell",
+        "part": "word/document.xml",
+        "body_index": 2,
+        "row": 3,
+        "col": 2
+      }
+    },
+    "text": "Answer for Travel",
+    "style_clone_from": null,
+    "review_flags": []
+  }
+]

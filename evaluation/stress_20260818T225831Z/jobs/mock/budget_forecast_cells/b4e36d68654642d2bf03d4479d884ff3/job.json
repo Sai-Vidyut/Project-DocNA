@@ -1,0 +1,23 @@
+{
+  "job_id": "b4e36d68654642d2bf03d4479d884ff3",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "49d702cde487d2b45c839956dd43e07fd98410af643b160822b501638941ecb5",
+  "original_filename": "budget_forecast_cells.docx",
+  "created_at": "2026-08-18T22:58:31.875407Z",
+  "updated_at": "2026-08-18T22:58:31.980024Z",
+  "warnings": [
+    "review_recommended:blk_0015:0.88",
+    "review_recommended:blk_0006:0.78",
+    "review_recommended:blk_0009:0.78",
+    "review_recommended:blk_0012:0.78",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}

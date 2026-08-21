@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for Document controls for each domain.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for List all privileged accounts",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for State mean time to patch critical CVEs",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Answer for Summarize outstanding critical findings",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Answer for MFA enrollment rate",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0006",
+    "text": "Answer for Last penetration test date",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

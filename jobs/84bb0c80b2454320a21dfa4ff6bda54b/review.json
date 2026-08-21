@@ -1,0 +1,113 @@
+{
+  "job_id": "84bb0c80b2454320a21dfa4ff6bda54b",
+  "status": "completed",
+  "answered": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Legal entity name: ________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0002",
+      "task_text": "Primary business address?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0003",
+      "task_text": "Do you hold ISO 27001 certification?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 1.0,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0004",
+      "task_text": "Security contact name and email?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.8,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0005",
+      "task_text": "Authorized signatory name?",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.8,
+      "placement_strategy": "fill_existing",
+      "review_flags": [],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0008",
+      "task_text": "List all data processing locations.",
+      "task_kind": "question",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [],
+      "skip_reason": null
+    }
+  ],
+  "skipped": [],
+  "flagged": [
+    {
+      "task_id": "task_0001",
+      "task_text": "Legal entity name: ________________________",
+      "task_kind": "fill_blank",
+      "answer_status": "answered",
+      "answer_confidence": 0.9,
+      "placement_strategy": "insert_below",
+      "review_flags": [
+        "overflow"
+      ],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0006",
+      "task_text": "Use complete sentences. Do not write in shaded areas.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null
+    },
+    {
+      "task_id": "task_0007",
+      "task_text": "Do not complete section D unless instructed by legal.",
+      "task_kind": "instruction",
+      "answer_status": "no_answer",
+      "answer_confidence": null,
+      "placement_strategy": "skip",
+      "review_flags": [
+        "instruction"
+      ],
+      "skip_reason": null
+    }
+  ],
+  "warnings": [
+    "semantic_unknown_block_id:space_0006",
+    "headers_footers_skipped",
+    "review_recommended:task_0005:0.80",
+    "review_recommended:task_0004:0.80"
+  ]
+}

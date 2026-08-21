@@ -1,0 +1,47 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Describe a complex project you led",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0002",
+      "blk_0004",
+      "blk_0005"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "How do you prioritize conflicting deadlines",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0002",
+      "blk_0003",
+      "blk_0005",
+      "blk_0006"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.86,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "Tell us about a failure and what you learned",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0003",
+      "blk_0004",
+      "blk_0006",
+      "blk_0007"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.88,
+    "skip_reason": null
+  }
+]

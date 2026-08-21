@@ -1,0 +1,8 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'For discussion only: Should we change vendors?' was not detected",
+    "task_id": null
+  }
+]

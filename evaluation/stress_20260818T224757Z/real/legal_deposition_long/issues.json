@@ -1,0 +1,20 @@
+[
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Expected prompt containing 'Explain in full detail the sequence of events on the date in' was not detected",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "error",
+    "message": "Only 0 answerable tasks detected; expected at least 1",
+    "task_id": null
+  },
+  {
+    "layer": "detection",
+    "severity": "info",
+    "message": "Mock-detected task missing from real AI run: Explain in full detail the sequence of events on the date in question, including",
+    "task_id": null
+  }
+]

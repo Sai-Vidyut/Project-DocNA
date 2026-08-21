@@ -1,0 +1,15 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "fill_blank",
+    "prompt_text": "Comments: ______________________________",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.85,
+    "skip_reason": null
+  }
+]

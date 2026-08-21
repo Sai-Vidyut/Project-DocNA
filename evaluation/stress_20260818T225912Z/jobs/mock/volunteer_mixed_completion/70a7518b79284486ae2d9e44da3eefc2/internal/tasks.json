@@ -1,0 +1,61 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "Volunteer ID?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0002",
+      "blk_0004",
+      "blk_0005"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.92,
+    "skip_reason": "already_answered"
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Primary phone number?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0003",
+      "blk_0004",
+      "blk_0006",
+      "blk_0007"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.92,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0003",
+    "kind": "question",
+    "prompt_text": "Preferred volunteer shift?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0006",
+      "blk_0007",
+      "blk_0009",
+      "blk_0010"
+    ],
+    "answer_space_id": "space_0004",
+    "confidence": 0.92,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0004",
+    "kind": "question",
+    "prompt_text": "Background check completed?",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0008",
+      "blk_0009",
+      "blk_0011"
+    ],
+    "answer_space_id": null,
+    "confidence": 0.92,
+    "skip_reason": "already_answered"
+  }
+]

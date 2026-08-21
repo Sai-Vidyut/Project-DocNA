@@ -1,0 +1,26 @@
+[
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0002"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0002"
+  }
+]

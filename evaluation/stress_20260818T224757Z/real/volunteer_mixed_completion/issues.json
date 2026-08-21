@@ -1,0 +1,62 @@
+[
+  {
+    "layer": "detection",
+    "severity": "warning",
+    "message": "Already-answered item not skipped: Volunteer ID?",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "detection",
+    "severity": "warning",
+    "message": "Already-answered item not skipped: Background check completed?",
+    "task_id": "task_0004"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0003"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0002"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0004"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "APIConnectionError: Connection error.",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0001"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0002"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0003"
+  },
+  {
+    "layer": "answer",
+    "severity": "error",
+    "message": "No answer generated for answerable task",
+    "task_id": "task_0004"
+  }
+]

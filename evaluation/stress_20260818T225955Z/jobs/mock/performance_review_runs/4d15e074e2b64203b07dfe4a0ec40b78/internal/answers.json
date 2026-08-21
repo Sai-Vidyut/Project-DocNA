@@ -1,0 +1,20 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for Goal 1: Describe progress on the revenue",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for Goal 2: Summarize leadership initiatives",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for List three measurable outcomes from Q3.",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "Answer for Confirm each statement.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "Answer for Have you read the code of conduct?",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "Answer for List any conflicts of interest",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "Answer for Date acknowledged",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Answer for Supervisor name if applicable",
+    "confidence": 0.95,
+    "notes": null
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "task_id": "task_0001",
+    "text": "[Student Name]",
+    "confidence": 0.8,
+    "notes": null
+  },
+  {
+    "task_id": "task_0002",
+    "text": "[Date]",
+    "confidence": 0.8,
+    "notes": null
+  },
+  {
+    "task_id": "task_0003",
+    "text": "The gap between what one desires and one's present state exists due to a lack of right understanding and self-exploration, where effort is often focused solely on physical facilities rather than developing understanding and right feelings in relationships.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0004",
+    "text": "To fill this gap, one needs to engage in continuous self-exploration, develop right understanding through value-based education, and ensure harmony in thoughts, relationships, and nature.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0005",
+    "text": "Without right understanding, the gap tends to get wider despite accumulating physical facilities; however, through self-exploration and right understanding, the gap gradually gets filled.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0006",
+    "text": "More due to lack of fulfilment in relationship.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0007",
+    "text": "Most time and effort is invested in acquiring physical facilities rather than for fulfilment in relationships.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0008",
+    "text": "Right understanding gives clarity about human purpose and harmony, which leads to fulfilment in relationships and proper utilization of physical facilities.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0009",
+    "text": "Most current major societal problems are due to a lack of values rather than a lack of skills.",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0010",
+    "text": "Increasing",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0011",
+    "text": "My role in the education system is to develop right understanding and right feelings (sanskar) within myself, live in alignment with them in relationships, and help facilitate holistic, value-based education for others.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0012",
+    "text": "Holistic development means the all-around development of a human being encompassing right understanding in the self, fulfillment in human-to-human relationships, and prosperity with physical facilities. Education\u2013sanskar plays the vital role of facilitating right understanding and human conduct, transforming society toward a humane order.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0013",
+    "text": "Yes, through self-reflection and natural acceptance, it is clear that the basic human aspirations are for continuous happiness and prosperity.",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0014",
+    "text": "Yes, fulfilling basic aspirations requires right understanding in the self (for harmony within), fulfillment in relationships (for harmony with human beings), and physical facilities (for harmony with nature).",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0015",
+    "text": "[Registration Number]",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0016",
+    "text": "Branch / Section",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0022",
+    "text": "YES",
+    "confidence": 0.98,
+    "notes": null
+  },
+  {
+    "task_id": "task_0023",
+    "text": "YES",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0024",
+    "text": "To be happy",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0025",
+    "text": "YES",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0026",
+    "text": "YES",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0027",
+    "text": "To be prosperous",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0028",
+    "text": "YES",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0029",
+    "text": "YES",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0030",
+    "text": "Continuity of happiness and prosperity",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0031",
+    "text": "Yes",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0032",
+    "text": "Yes",
+    "confidence": 0.9,
+    "notes": null
+  },
+  {
+    "task_id": "task_0033",
+    "text": "Question",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0034",
+    "text": "Your observation",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0035",
+    "text": "Lack of physical facilities",
+    "confidence": 0.95,
+    "notes": null
+  },
+  {
+    "task_id": "task_0037",
+    "text": "Information not available.",
+    "confidence": 0.2,
+    "notes": "No specific requirement data provided."
+  },
+  {
+    "task_id": "task_0038",
+    "text": "Information not available.",
+    "confidence": 0.2,
+    "notes": "No specific priority data provided."
+  },
+  {
+    "task_id": "task_0039",
+    "text": "Information not available.",
+    "confidence": 0.2,
+    "notes": "No specific understanding data provided."
+  },
+  {
+    "task_id": "task_0040",
+    "text": "Information not available.",
+    "confidence": 0.2,
+    "notes": "No specific relationship data provided."
+  },
+  {
+    "task_id": "task_0041",
+    "text": "Information not available.",
+    "confidence": 0.2,
+    "notes": "No specific physical facility data provided."
+  },
+  {
+    "task_id": "task_0042",
+    "text": "I do not have enough information to answer this question.",
+    "confidence": 0.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0043",
+    "text": "I do not have enough information to answer this question.",
+    "confidence": 0.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0044",
+    "text": "I do not have enough information to answer this question.",
+    "confidence": 0.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0045",
+    "text": "I do not have enough information to answer this question.",
+    "confidence": 0.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0046",
+    "text": "I do not have enough information to answer this question.",
+    "confidence": 0.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0047",
+    "text": "5",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0048",
+    "text": "List five key problems observed in your surroundings in order of severity, starting with the most severe.",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0049",
+    "text": "#",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0050",
+    "text": "Problem",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0051",
+    "text": "Root cause (your view)",
+    "confidence": 1.0,
+    "notes": null
+  },
+  {
+    "task_id": "task_0052",
+    "text": "Solution (prioritized): 1) Implement targeted skill development programs. 2) Integrate value-based training in organizational culture. 3) Establish mentorship systems to address gaps.",
+    "confidence": 0.75,
+    "notes": "General solution addressing skill/values gap as root cause, focusing on increasing training/resources."
+  },
+  {
+    "task_id": "task_0053",
+    "text": "1. Introduction to Value Education",
+    "confidence": 0.85,
+    "notes": "Linked to worksheet module title and lecture sequence"
+  },
+  {
+    "task_id": "task_0054",
+    "text": "2. Professional Ethics in Engineering",
+    "confidence": 0.7,
+    "notes": "Inferred from worksheet progression pattern"
+  },
+  {
+    "task_id": "task_0055",
+    "text": "3. Environmental Ethics",
+    "confidence": 0.65,
+    "notes": "Follows educational module sequence"
+  },
+  {
+    "task_id": "task_0056",
+    "text": "4. Ethics in Technology",
+    "confidence": 0.6,
+    "notes": "Logical next module in sequence"
+  },
+  {
+    "task_id": "task_0057",
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "confidence": 0.1,
+    "notes": null
+  },
+  {
+    "task_id": "task_0058",
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "confidence": 0.1,
+    "notes": null
+  },
+  {
+    "task_id": "task_0059",
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "confidence": 0.1,
+    "notes": null
+  },
+  {
+    "task_id": "task_0060",
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "confidence": 0.1,
+    "notes": null
+  },
+  {
+    "task_id": "task_0061",
+    "text": "I cannot provide specific responses because the required content is not available.",
+    "confidence": 0.1,
+    "notes": null
+  },
+  {
+    "task_id": "task_0062",
+    "text": "Yes, an effective education system should weave together the three components highlighted\u2014right understanding (content), fulfillment in relationships (process and social engagement), and physical facility (resources and infrastructure). Presently many curricula emphasize content knowledge while under\u2011investing in relational dynamics and adequate material support, which limits holistic development and well\u2011being. The way forward is to design curricula that embed inquiry\u2011based learning (promoting right understanding), collaborative and community\u2011oriented projects (fostering relational fulfillment), and equitable access to learning environments, technology, and health resources (ensuring physical facility). This integrated approach aligns knowledge acquisition with social and material well\u2011being, preparing learners for continuous happiness and prosperity.",
+    "confidence": 0.92,
+    "notes": "Answer reflects synthesis of the three elements and a general recommendation for improvement."
+  }
+]

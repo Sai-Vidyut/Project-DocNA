@@ -1,0 +1,3028 @@
+{
+  "timestamp": "20260818T224757Z",
+  "fixtures_evaluated": 18,
+  "mock_completed": 13,
+  "mock_failed": 5,
+  "mock_error_issues": 14,
+  "real_ai_ran": true,
+  "issue_counts": {
+    "detection:error": 34,
+    "detection:warning": 6,
+    "detection:info": 4,
+    "answer:error": 80
+  },
+  "classified_issues": {
+    "A": [],
+    "B": [
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'complex project you led' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'prioritize conflicting deadlines' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'failure and what you learned' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 4",
+        "task_id": null
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'revenue target' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'leadership initiatives' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'measurable' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 3",
+        "task_id": null
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Have you read the code of conduct?",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 1 answerable tasks detected; expected at least 2",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'age range' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'statistical software' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'recruiting diverse' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 3",
+        "task_id": null
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Volunteer ID?",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Background check completed?",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'Explain major variances from prior quarter' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 3 answerable tasks detected; expected at least 4",
+        "task_id": null
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "detection",
+        "severity": "info",
+        "message": "Mock-detected task missing from real AI run: Explain major variances from prior quarter",
+        "task_id": null
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing '________________________________________' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 1 answerable tasks detected; expected at least 3",
+        "task_id": null
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "detection",
+        "severity": "info",
+        "message": "Mock-detected task missing from real AI run: ______________________________",
+        "task_id": null
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "detection",
+        "severity": "info",
+        "message": "Mock-detected task missing from real AI run: ________________________________________",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'complex project you led' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'prioritize conflicting deadlines' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'failure and what you learned' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "interview_no_blanks.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 4",
+        "task_id": null
+      },
+      {
+        "fixture": "legal_deposition_long.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'Explain in full detail the sequence of events on the date in' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "legal_deposition_long.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 1",
+        "task_id": null
+      },
+      {
+        "fixture": "legal_deposition_long.docx",
+        "layer": "detection",
+        "severity": "info",
+        "message": "Mock-detected task missing from real AI run: Explain in full detail the sequence of events on the date in question, including",
+        "task_id": null
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'revenue target' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'leadership initiatives' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'measurable' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "performance_review_runs.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 3",
+        "task_id": null
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Have you read the code of conduct?",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 1 answerable tasks detected; expected at least 2",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'age range' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'statistical software' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Expected prompt containing 'recruiting diverse' was not detected",
+        "task_id": null
+      },
+      {
+        "fixture": "research_survey_dense.docx",
+        "layer": "detection",
+        "severity": "error",
+        "message": "Only 0 answerable tasks detected; expected at least 3",
+        "task_id": null
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Volunteer ID?",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "detection",
+        "severity": "warning",
+        "message": "Already-answered item not skipped: Background check completed?",
+        "task_id": "task_0004"
+      }
+    ],
+    "C": [],
+    "D": [
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "budget_forecast_cells.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "clinical_intake_merged.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "construction_rfp_tables.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0005"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "course_syllabus_breaks.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0005"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "debate_worksheet.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0005"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0006"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0005"
+      },
+      {
+        "fixture": "grant_proposal_messy.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0006"
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "hr_onboarding_underlines.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "internship_multibreak.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "internship_multibreak.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "it_security_audit_form.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "medical_history_shaded.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "medical_history_shaded.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "medical_history_shaded.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "medical_history_shaded.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "memo_unstructured.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "newsletter_with_header.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "newsletter_with_header.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "policy_partial_answers.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0004"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "APIConnectionError: Connection error.",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0001"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0002"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0003"
+      },
+      {
+        "fixture": "volunteer_mixed_completion.docx",
+        "layer": "answer",
+        "severity": "error",
+        "message": "No answer generated for answerable task",
+        "task_id": "task_0004"
+      }
+    ],
+    "E": [],
+    "F": [],
+    "G": [],
+    "H": [],
+    "I": []
+  },
+  "fixtures": [
+    {
+      "fixture": "budget_forecast_cells.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 67.67,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "fill_cell": 3,
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 17,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "49d702cde487d2b45c839956dd43e07fd98410af643b160822b501638941ecb5",
+        "output_hash": "1a98645a574b3c3547317a58fd944185bf6d6d83a3a1f3176dd5d4a7019dac89",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "clinical_intake_merged.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 63.62,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "fill_cell": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c82e3e8a1ba23fcc1efdb2d2861421e5277d947b54d32b5a4870c61ea9f107b3",
+        "output_hash": "85deee52122a8fa59ec882cf89812912071cc2858993734402fbc21963c24d2c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "construction_rfp_tables.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 84.34,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "fill_existing": 1,
+        "insert_below": 1,
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 18,
+        "blocks_after": 19,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "7810d7660a02b9a3159bfefccb1390bd9f6470badb659fc1b12728a90438cfae",
+        "output_hash": "8adc0fd0fbd65af4f757ce69497c696e20f64c833cd91dc6ff6f45b3b69263da",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "course_syllabus_breaks.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 76.24,
+      "detected_tasks": 5,
+      "answerable_tasks": 5,
+      "answers_generated": 5,
+      "placement_strategies": {
+        "fill_existing": 4,
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 14,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "047e98c05402feb570bb9df437f58309b0d8b688d04a0415c98c653d34b7805e",
+        "output_hash": "f89d85e49b9cc7f712bfe3f49179fe72ebe4e95454659385fa0742b1450306d9",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "debate_worksheet.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 63.15,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "fill_existing": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "354b51cec7fe93be797848f3645676f13f1869aff4a5270afc8b243138761788",
+        "output_hash": "f8faaa25d32736dbce0f505cb684f865794861e1b4bd75110c4bc40c68d7e0f9",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "grant_proposal_messy.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 89.64,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 6,
+      "placement_strategies": {
+        "fill_existing": 3,
+        "insert_below": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "83cf448b9f7715cb4d2dc4f9e588cdd6720c965f18119725414bec8cbffa3ed5",
+        "output_hash": "6112b4a665c6d02352702863f5ddac01d223b54b12ddbc2ff5e7b86d74680baa",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "hr_onboarding_underlines.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 93.48,
+      "detected_tasks": 4,
+      "answerable_tasks": 3,
+      "answers_generated": 3,
+      "placement_strategies": {
+        "insert_below": 3,
+        "skip": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 14,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "66c53e1f1faac7acec690445964d2c2d30e3c25daefae77f31336496f3a299d2",
+        "output_hash": "df530921cd477161a3d5e83efbff427e9a35051919eaba37b520df53b7ca0830",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "internship_multibreak.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 80.59,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 1,
+      "placement_strategies": {
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 12,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "5e88d447b0fbfdabde77c775b3bb2bdf9daa9f9706a86afc288101c46a159186",
+        "output_hash": "fd586d91779301cec1139e753638904d846097a94713ed03370bdee68dd55f46",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "interview_no_blanks.docx",
+      "provider_mode": "mock",
+      "status": "failed",
+      "elapsed_ms": 61.3,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+        "output_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'complex project you led' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'prioritize conflicting deadlines' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'failure and what you learned' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 4",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "it_security_audit_form.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 81.11,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "fill_existing": 1,
+        "insert_below": 1,
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 15,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "37f8a58459b1dd17c3e5e95cd86acca3b8a446f0cbdd396b3aca26d12e5cd642",
+        "output_hash": "ac6589b9f971502b67609eead180fe32437499cb3a382d73160c6264c5b6c45c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "legal_deposition_long.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 79.23,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 1,
+      "placement_strategies": {
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "9612b3621fc47f83af0b2fe01979fce423f499f844e1df6e983cc2fd4a16d7cd",
+        "output_hash": "3fe9c53ae65c507c1b1068ceaef16c77de76c4b56d0828f6b311cde506f897be",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "medical_history_shaded.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 66.89,
+      "detected_tasks": 2,
+      "answerable_tasks": 2,
+      "answers_generated": 2,
+      "placement_strategies": {
+        "fill_cell": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 17,
+        "blocks_after": 17,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "b25fd92a0a0c795d1e4908636ad142586a54285f1ae0d16a431d4dfdf062cf4c",
+        "output_hash": "c64cf3f674a49efa5217cb20a117b9f398bd8c3237bf998a1ff52aeaf0d34814",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "memo_unstructured.docx",
+      "provider_mode": "mock",
+      "status": "failed",
+      "elapsed_ms": 69.53,
+      "detected_tasks": 2,
+      "answerable_tasks": 2,
+      "answers_generated": 2,
+      "placement_strategies": {
+        "insert_below": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "2fa8887fec1308c5fd9be873e3e994cb247b0f63a9ee648c026efc7d2eea2cc6",
+        "output_hash": "bb54f81e0cba386a5791bbab60806bffdb802274cd817d1c20beb4201092b120",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "newsletter_with_header.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 50.08,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 1,
+      "placement_strategies": {
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 5,
+        "blocks_after": 6,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "adab404348fc6fb5f0797c705883af1d6380af77be961ea00e55412220f63f72",
+        "output_hash": "fce4642f18441b6d63b45a13c069573d28804ec7807828f71a16d23e4a9954a4",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": []
+    },
+    {
+      "fixture": "performance_review_runs.docx",
+      "provider_mode": "mock",
+      "status": "failed",
+      "elapsed_ms": 52.93,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 7,
+        "blocks_after": 7,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+        "output_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'revenue target' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'leadership initiatives' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'measurable' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 3",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "policy_partial_answers.docx",
+      "provider_mode": "mock",
+      "status": "failed",
+      "elapsed_ms": 85.35,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 1,
+      "placement_strategies": {
+        "insert_below": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 12,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c5d16983eb58456aae2300db0e64773c33c485440ae9e62fe19b63fab29d4e69",
+        "output_hash": "eae8df9c2ac9bfae37b7ae26f677f8d8364b89bbfc0fafc26e3f1afe07cf110c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Have you read the code of conduct?",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 1 answerable tasks detected; expected at least 2",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "research_survey_dense.docx",
+      "provider_mode": "mock",
+      "status": "failed",
+      "elapsed_ms": 59.5,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "ac60900768c7dc0cc98404157c4649772750f880e38b65e9fd2054c37845e7f0",
+        "output_hash": "ac60900768c7dc0cc98404157c4649772750f880e38b65e9fd2054c37845e7f0",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'age range' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'statistical software' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'recruiting diverse' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 3",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "volunteer_mixed_completion.docx",
+      "provider_mode": "mock",
+      "status": "completed",
+      "elapsed_ms": 91.61,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 4,
+      "placement_strategies": {
+        "insert_below": 3,
+        "fill_existing": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 14,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "04ad4803b16630689e4dac1656d138eeeaab5f622b7a7ae36dfbc2796420a85c",
+        "output_hash": "5ec81d16efbcd4ca8b650ad5ed945a87a241825cc579cacb58eb3b20436f49d0",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Volunteer ID?",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Background check completed?",
+          "task_id": "task_0004"
+        }
+      ]
+    },
+    {
+      "fixture": "budget_forecast_cells.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22843.16,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "49d702cde487d2b45c839956dd43e07fd98410af643b160822b501638941ecb5",
+        "output_hash": "49d702cde487d2b45c839956dd43e07fd98410af643b160822b501638941ecb5",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'Explain major variances from prior quarter' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 3 answerable tasks detected; expected at least 4",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "info",
+          "message": "Mock-detected task missing from real AI run: Explain major variances from prior quarter",
+          "task_id": null
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        }
+      ]
+    },
+    {
+      "fixture": "clinical_intake_merged.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22605.69,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 16,
+        "blocks_after": 16,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c82e3e8a1ba23fcc1efdb2d2861421e5277d947b54d32b5a4870c61ea9f107b3",
+        "output_hash": "c82e3e8a1ba23fcc1efdb2d2861421e5277d947b54d32b5a4870c61ea9f107b3",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        }
+      ]
+    },
+    {
+      "fixture": "construction_rfp_tables.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22786.82,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 4
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 18,
+        "blocks_after": 18,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "7810d7660a02b9a3159bfefccb1390bd9f6470badb659fc1b12728a90438cfae",
+        "output_hash": "7810d7660a02b9a3159bfefccb1390bd9f6470badb659fc1b12728a90438cfae",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0004"
+        }
+      ]
+    },
+    {
+      "fixture": "course_syllabus_breaks.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 28770.3,
+      "detected_tasks": 5,
+      "answerable_tasks": 5,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 5
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 13,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "047e98c05402feb570bb9df437f58309b0d8b688d04a0415c98c653d34b7805e",
+        "output_hash": "047e98c05402feb570bb9df437f58309b0d8b688d04a0415c98c653d34b7805e",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0005"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0005"
+        }
+      ]
+    },
+    {
+      "fixture": "debate_worksheet.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 23075.88,
+      "detected_tasks": 3,
+      "answerable_tasks": 3,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 3
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "354b51cec7fe93be797848f3645676f13f1869aff4a5270afc8b243138761788",
+        "output_hash": "354b51cec7fe93be797848f3645676f13f1869aff4a5270afc8b243138761788",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        }
+      ]
+    },
+    {
+      "fixture": "grant_proposal_messy.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 45386.88,
+      "detected_tasks": 6,
+      "answerable_tasks": 6,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 6
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 13,
+        "blocks_after": 13,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "83cf448b9f7715cb4d2dc4f9e588cdd6720c965f18119725414bec8cbffa3ed5",
+        "output_hash": "83cf448b9f7715cb4d2dc4f9e588cdd6720c965f18119725414bec8cbffa3ed5",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0005"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0006"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0005"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0006"
+        }
+      ]
+    },
+    {
+      "fixture": "hr_onboarding_underlines.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22995.79,
+      "detected_tasks": 2,
+      "answerable_tasks": 1,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "66c53e1f1faac7acec690445964d2c2d30e3c25daefae77f31336496f3a299d2",
+        "output_hash": "66c53e1f1faac7acec690445964d2c2d30e3c25daefae77f31336496f3a299d2",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing '________________________________________' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 1 answerable tasks detected; expected at least 3",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "info",
+          "message": "Mock-detected task missing from real AI run: ______________________________",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "info",
+          "message": "Mock-detected task missing from real AI run: ________________________________________",
+          "task_id": null
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        }
+      ]
+    },
+    {
+      "fixture": "internship_multibreak.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 28876.74,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "5e88d447b0fbfdabde77c775b3bb2bdf9daa9f9706a86afc288101c46a159186",
+        "output_hash": "5e88d447b0fbfdabde77c775b3bb2bdf9daa9f9706a86afc288101c46a159186",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        }
+      ]
+    },
+    {
+      "fixture": "interview_no_blanks.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 5825.6,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+        "output_hash": "47196b98c24476ca7bae74e1a75b2fe018cd23f14f85eec377122616abaa8bc8",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'complex project you led' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'prioritize conflicting deadlines' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'failure and what you learned' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 4",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "it_security_audit_form.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 23228.71,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 4
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 15,
+        "blocks_after": 15,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "37f8a58459b1dd17c3e5e95cd86acca3b8a446f0cbdd396b3aca26d12e5cd642",
+        "output_hash": "37f8a58459b1dd17c3e5e95cd86acca3b8a446f0cbdd396b3aca26d12e5cd642",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0004"
+        }
+      ]
+    },
+    {
+      "fixture": "legal_deposition_long.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 5327.54,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 10,
+        "blocks_after": 10,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "9612b3621fc47f83af0b2fe01979fce423f499f844e1df6e983cc2fd4a16d7cd",
+        "output_hash": "9612b3621fc47f83af0b2fe01979fce423f499f844e1df6e983cc2fd4a16d7cd",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'Explain in full detail the sequence of events on the date in' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 1",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "info",
+          "message": "Mock-detected task missing from real AI run: Explain in full detail the sequence of events on the date in question, including",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "medical_history_shaded.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22750.78,
+      "detected_tasks": 2,
+      "answerable_tasks": 2,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 1,
+        "tables_after": 1,
+        "blocks_before": 17,
+        "blocks_after": 17,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "b25fd92a0a0c795d1e4908636ad142586a54285f1ae0d16a431d4dfdf062cf4c",
+        "output_hash": "b25fd92a0a0c795d1e4908636ad142586a54285f1ae0d16a431d4dfdf062cf4c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        }
+      ]
+    },
+    {
+      "fixture": "memo_unstructured.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22371.94,
+      "detected_tasks": 2,
+      "answerable_tasks": 2,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 2
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "2fa8887fec1308c5fd9be873e3e994cb247b0f63a9ee648c026efc7d2eea2cc6",
+        "output_hash": "2fa8887fec1308c5fd9be873e3e994cb247b0f63a9ee648c026efc7d2eea2cc6",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "False positive containing 'For discussion only': For discussion only: Should we change vendors?",
+          "task_id": null
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        }
+      ]
+    },
+    {
+      "fixture": "newsletter_with_header.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 23004.74,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 5,
+        "blocks_after": 5,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "adab404348fc6fb5f0797c705883af1d6380af77be961ea00e55412220f63f72",
+        "output_hash": "adab404348fc6fb5f0797c705883af1d6380af77be961ea00e55412220f63f72",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        }
+      ]
+    },
+    {
+      "fixture": "performance_review_runs.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 5681.89,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 7,
+        "blocks_after": 7,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+        "output_hash": "61943c4c1ee7442993b7f7bfb7a293877f660c7ed6eb8b68464146bf2b2ae4ca",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'revenue target' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'leadership initiatives' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'measurable' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 3",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "policy_partial_answers.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22327.75,
+      "detected_tasks": 1,
+      "answerable_tasks": 1,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 1
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "c5d16983eb58456aae2300db0e64773c33c485440ae9e62fe19b63fab29d4e69",
+        "output_hash": "c5d16983eb58456aae2300db0e64773c33c485440ae9e62fe19b63fab29d4e69",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Have you read the code of conduct?",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 1 answerable tasks detected; expected at least 2",
+          "task_id": null
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        }
+      ]
+    },
+    {
+      "fixture": "research_survey_dense.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 5309.69,
+      "detected_tasks": 0,
+      "answerable_tasks": 0,
+      "answers_generated": 0,
+      "placement_strategies": {},
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 8,
+        "blocks_after": 8,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "ac60900768c7dc0cc98404157c4649772750f880e38b65e9fd2054c37845e7f0",
+        "output_hash": "ac60900768c7dc0cc98404157c4649772750f880e38b65e9fd2054c37845e7f0",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'age range' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'statistical software' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Expected prompt containing 'recruiting diverse' was not detected",
+          "task_id": null
+        },
+        {
+          "layer": "detection",
+          "severity": "error",
+          "message": "Only 0 answerable tasks detected; expected at least 3",
+          "task_id": null
+        }
+      ]
+    },
+    {
+      "fixture": "volunteer_mixed_completion.docx",
+      "provider_mode": "real",
+      "status": "failed",
+      "elapsed_ms": 22781.82,
+      "detected_tasks": 4,
+      "answerable_tasks": 4,
+      "answers_generated": 0,
+      "placement_strategies": {
+        "skip": 4
+      },
+      "missing_writes": [],
+      "structure": {
+        "tables_before": 0,
+        "tables_after": 0,
+        "blocks_before": 11,
+        "blocks_after": 11,
+        "output_valid_zip": true,
+        "output_opens": true,
+        "original_hash": "04ad4803b16630689e4dac1656d138eeeaab5f622b7a7ae36dfbc2796420a85c",
+        "output_hash": "04ad4803b16630689e4dac1656d138eeeaab5f622b7a7ae36dfbc2796420a85c",
+        "original_unchanged": true,
+        "notes": [
+          "headers_footers_skipped"
+        ]
+      },
+      "edit": {
+        "attempted": false,
+        "single_edit_ok": false,
+        "multi_edit_ok": false,
+        "original_unchanged": false,
+        "ai_output_preserved": false,
+        "edited_text_found": false,
+        "untouched_answer_preserved": false,
+        "errors": []
+      },
+      "issues": [
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Volunteer ID?",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "detection",
+          "severity": "warning",
+          "message": "Already-answered item not skipped: Background check completed?",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0004"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "APIConnectionError: Connection error.",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0001"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0002"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0003"
+        },
+        {
+          "layer": "answer",
+          "severity": "error",
+          "message": "No answer generated for answerable task",
+          "task_id": "task_0004"
+        }
+      ]
+    }
+  ]
+}

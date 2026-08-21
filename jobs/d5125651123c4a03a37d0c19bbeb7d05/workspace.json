@@ -1,0 +1,19 @@
+{
+  "workspace_id": "d5125651123c4a03a37d0c19bbeb7d05",
+  "job_id": "d5125651123c4a03a37d0c19bbeb7d05",
+  "document_name": "no_answer_spaces.docx",
+  "display_name": "no_answer_spaces",
+  "created_at": "2026-08-18T22:33:20.711007Z",
+  "updated_at": "2026-08-18T22:33:49.006669Z",
+  "status": "processing",
+  "questions_detected": 0,
+  "answers_generated": 0,
+  "items_remaining": 0,
+  "items_needing_review": 0,
+  "edited_task_ids": [],
+  "export_filename": "no_answer_spaces_completed.docx",
+  "draft_edits": {},
+  "download_ready": false,
+  "error_message": null,
+  "library_kind": "internal"
+}

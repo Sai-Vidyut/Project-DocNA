@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "task_0001",
+    "kind": "question",
+    "prompt_text": "What is your age range and how many years have you worked in research administration \u2014 please answer both parts.",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0001",
+      "blk_0003",
+      "blk_0004"
+    ],
+    "answer_space_id": "space_0001",
+    "confidence": 0.86,
+    "skip_reason": null
+  },
+  {
+    "task_id": "task_0002",
+    "kind": "question",
+    "prompt_text": "Describe challenges recruiting diverse participants",
+    "parent_task_id": null,
+    "context_block_ids": [
+      "blk_0005",
+      "blk_0006",
+      "blk_0008"
+    ],
+    "answer_space_id": "space_0002",
+    "confidence": 0.88,
+    "skip_reason": null
+  }
+]

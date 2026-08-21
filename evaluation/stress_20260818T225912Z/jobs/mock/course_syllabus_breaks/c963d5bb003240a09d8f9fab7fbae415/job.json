@@ -1,0 +1,21 @@
+{
+  "job_id": "c963d5bb003240a09d8f9fab7fbae415",
+  "status": "completed",
+  "source_format": "docx",
+  "source_hash": "047e98c05402feb570bb9df437f58309b0d8b688d04a0415c98c653d34b7805e",
+  "original_filename": "course_syllabus_breaks.docx",
+  "created_at": "2026-08-18T22:59:13.015736Z",
+  "updated_at": "2026-08-18T22:59:13.136012Z",
+  "warnings": [
+    "review_recommended:blk_0003:0.85",
+    "review_recommended:blk_0005:0.85",
+    "headers_footers_skipped"
+  ],
+  "errors": [],
+  "output_ready": true,
+  "edited_output_ready": true,
+  "edited_task_ids": [
+    "task_0001",
+    "task_0002"
+  ]
+}
