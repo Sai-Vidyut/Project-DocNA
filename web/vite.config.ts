@@ -10,4 +10,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    port: 5173,
+    proxy: {
+      "/jobs": "http://127.0.0.1:8000",
+      "/workspaces": "http://127.0.0.1:8000",
+    },
+  },
 })
