@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { MotionReveal, MotionStagger, MotionStaggerItem } from "@/components/motion/motion-primitives"
 import { DocumentRow } from "./DocumentCard"
 import { WorkspaceHero } from "./WorkspaceHero"
 import type { WorkspaceSummary } from "@/lib/types"
@@ -32,7 +33,7 @@ function DocumentsLoadError({ message, onRetry }: { message: string; onRetry: ()
 
 function DocumentsEmptyState({ onNewDocument, onDropFile }: { onNewDocument: () => void; onDropFile?: (file: File) => void }) {
   return (
-    <div className="relative py-6 text-center">
+    <MotionReveal className="relative py-6 text-center">
       <div
         className="pointer-events-none absolute left-1/2 top-8 size-48 -translate-x-1/2 rounded-full bg-[radial-gradient(circle,hsla(var(--primary)/0.08),transparent_70%)] blur-2xl"
         aria-hidden
@@ -49,7 +50,7 @@ function DocumentsEmptyState({ onNewDocument, onDropFile }: { onNewDocument: () 
       <div className="relative mt-8">
         <WorkspaceHero onNewDocument={onNewDocument} onDropFile={onDropFile} />
       </div>
-    </div>
+    </MotionReveal>
   )
 }
 
@@ -75,16 +76,18 @@ export function DocumentsView({
       className="documents-home mx-auto w-full px-4 py-6 md:px-6 md:py-8"
       aria-labelledby="documents-heading"
     >
-      <header className="mb-6 md:mb-8">
-        <h1 id="documents-heading" className="m-0 type-workspace-title text-[hsl(var(--foreground))]">
-          Your workspace
-        </h1>
-        <p className="mt-1.5 mb-0 text-sm text-[hsl(var(--muted))]">
-          {showEmpty
-            ? "Documents, drafts, and completed work live here."
-            : "Documents you've worked on."}
-        </p>
-      </header>
+      <MotionReveal className="mb-6 md:mb-8">
+        <header>
+          <h1 id="documents-heading" className="m-0 type-workspace-title text-[hsl(var(--foreground))]">
+            Your workspace
+          </h1>
+          <p className="mt-1.5 mb-0 text-sm text-[hsl(var(--muted))]">
+            {showEmpty
+              ? "Documents, drafts, and completed work live here."
+              : "Documents you've worked on."}
+          </p>
+        </header>
+      </MotionReveal>
 
       {loading ? (
         <p className="m-0 py-16 text-center text-sm text-[hsl(var(--muted))]" aria-live="polite">
@@ -106,9 +109,9 @@ export function DocumentsView({
             <div>
               <div className="workspace-divider mb-4" aria-hidden />
               <p className="type-section-label mb-3">Recent</p>
-              <ul className="m-0 flex list-none flex-col gap-2 p-0">
+              <MotionStagger className="m-0 flex list-none flex-col gap-2 p-0">
                 {primary.map((workspace) => (
-                  <li key={workspace.workspace_id}>
+                  <MotionStaggerItem key={workspace.workspace_id}>
                     <DocumentRow
                       workspace={workspace}
                       peers={workspaces}
@@ -116,18 +119,18 @@ export function DocumentsView({
                       onRename={onRename}
                       onDelete={onDelete}
                     />
-                  </li>
+                  </MotionStaggerItem>
                 ))}
-              </ul>
+              </MotionStagger>
             </div>
           ) : null}
 
           {failed.length > 0 ? (
             <div>
               <p className="type-section-label mb-2 text-[hsl(var(--muted-foreground))]">Could not process</p>
-              <ul className="m-0 flex list-none flex-col gap-2 p-0">
+              <MotionStagger className="m-0 flex list-none flex-col gap-2 p-0">
                 {failed.map((workspace) => (
-                  <li key={workspace.workspace_id}>
+                  <MotionStaggerItem key={workspace.workspace_id}>
                     <DocumentRow
                       workspace={workspace}
                       peers={workspaces}
@@ -136,9 +139,9 @@ export function DocumentsView({
                       onRename={onRename}
                       onDelete={onDelete}
                     />
-                  </li>
+                  </MotionStaggerItem>
                 ))}
-              </ul>
+              </MotionStagger>
             </div>
           ) : null}
         </div>

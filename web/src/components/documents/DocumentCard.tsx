@@ -1,4 +1,6 @@
 import { useRef, useState } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { springSoft, instantTransition } from "@/lib/motion-presets"
 import { ArrowRight, FileText, MoreHorizontal } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { DocumentMenu } from "./DocumentMenu"
@@ -23,6 +25,7 @@ export function DocumentRow({ workspace, peers, muted, onOpen, onRename, onDelet
   const [confirmDelete, setConfirmDelete] = useState(false)
   const [busy, setBusy] = useState(false)
   const menuButtonRef = useRef<HTMLButtonElement>(null)
+  const reduce = useReducedMotion()
 
   const submitRename = async () => {
     const trimmed = nameDraft.trim()
@@ -51,7 +54,12 @@ export function DocumentRow({ workspace, peers, muted, onOpen, onRename, onDelet
   }
 
   return (
-    <div className={cn("doc-row glass-1 group relative rounded-md", muted && "opacity-75")}>
+    <motion.div
+      layout={!reduce}
+      whileHover={reduce ? undefined : { y: -2, scale: 1.005 }}
+      transition={reduce ? instantTransition : springSoft}
+      className={cn("doc-row glass-1 group relative rounded-md", muted && "opacity-75")}
+    >
       <button
         type="button"
         className="flex w-full items-center gap-3 px-3.5 py-3 pr-12 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsla(var(--primary)/0.35)] focus-visible:ring-offset-2 focus-visible:ring-offset-[hsl(var(--background))] rounded-md"
@@ -136,7 +144,13 @@ export function DocumentRow({ workspace, peers, muted, onOpen, onRename, onDelet
       />
 
       {confirmDelete ? (
-        <div className="border-t border-[hsla(var(--foreground)/0.05)] px-3.5 py-2.5" onClick={(e) => e.stopPropagation()}>
+        <motion.div
+          initial={reduce ? false : { opacity: 0, height: 0 }}
+          animate={{ opacity: 1, height: "auto" }}
+          transition={reduce ? instantTransition : springSoft}
+          className="border-t border-[hsla(var(--foreground)/0.05)] px-3.5 py-2.5"
+          onClick={(e) => e.stopPropagation()}
+        >
           <p className="m-0 text-[0.8125rem] text-[hsl(var(--foreground))]">
             Delete “{workspace.display_name}”? This cannot be undone.
           </p>
@@ -153,9 +167,9 @@ export function DocumentRow({ workspace, peers, muted, onOpen, onRename, onDelet
               Delete
             </Button>
           </div>
-        </div>
+        </motion.div>
       ) : null}
-    </div>
+    </motion.div>
   )
 }
 

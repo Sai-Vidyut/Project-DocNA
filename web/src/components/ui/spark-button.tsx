@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils"
+import { motion, useReducedMotion } from "motion/react"
+import { instantTransition, springSnappy, tapScale } from "@/lib/motion-presets"
 import type { ElementType, ComponentPropsWithoutRef, ReactNode } from "react"
 import { Sparkles } from "lucide-react"
 
@@ -22,17 +24,20 @@ export function CosmicGlowButton<T extends ElementType = "button">({
   showIcon = true,
   ...props
 }: CosmicGlowButtonProps<T> & Omit<ComponentPropsWithoutRef<T>, keyof CosmicGlowButtonProps<T>>) {
-  const Component = as || "button"
+  const Component = motion.create(as || "button")
+  const reduce = useReducedMotion()
   const glowColor = color || "hsl(var(--primary))"
 
   return (
     <Component
+      whileHover={reduce ? undefined : { scale: 1.03, y: -1 }}
+      whileTap={reduce ? undefined : tapScale}
+      transition={reduce ? instantTransition : springSnappy}
       className={cn(
         "relative inline-flex items-center justify-center overflow-hidden rounded-md border border-[hsla(var(--foreground)/0.08)] font-medium text-white cursor-pointer",
         "bg-[hsla(var(--surface-elevated)/0.85)]",
-        "shadow-[0_2px_12px_hsla(228_40%_2%/0.4)] transition-[transform,box-shadow] duration-200",
+        "shadow-[0_2px_12px_hsla(228_40%_2%/0.4)]",
         "hover:shadow-[0_4px_20px_hsla(228_40%_2%/0.5),0_0_16px_hsla(var(--ai-glow)/0.15)]",
-        "active:scale-[0.99] motion-reduce:active:scale-100",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsla(var(--primary)/0.45)] focus-visible:ring-offset-2 focus-visible:ring-offset-[hsl(var(--background))]",
         "disabled:cursor-not-allowed disabled:opacity-45 disabled:hover:shadow-[0_2px_12px_hsla(228_40%_2%/0.4)]",
         compact ? "gap-1 px-3 py-1.5 text-xs" : "gap-1.5 px-4 py-2 text-sm",

@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, slideFromRight, springSoft } from "@/lib/motion-presets"
 import { Button } from "@/components/ui/button"
 import type { DocumentPreview, ReviewReport, ReviewTaskEntry } from "@/lib/types"
 import { DocumentViewer } from "@/components/document/DocumentViewer"
@@ -51,6 +53,7 @@ export function ReviewWorkspace({
   const hostRef = useRef<HTMLDivElement | null>(null)
   const [scale, setScale] = useState(1)
   const [fitMode, setFitMode] = useState(true)
+  const reduce = useReducedMotion()
 
   const computeFitScale = useCallback(() => {
     const host = hostRef.current
@@ -112,7 +115,13 @@ export function ReviewWorkspace({
           className={`grid min-h-0 flex-1 grid-cols-1 gap-5 xl:grid-cols-[minmax(0,1fr)_min(340px,32%)] xl:gap-6 xl:overflow-hidden ${reviewError ? "mt-2" : ""}`}
         >
           {/* Document workspace — independent scroll on desktop */}
-          <div className="flex min-h-0 min-w-0 flex-col xl:overflow-hidden">
+          <motion.div
+            className="flex min-h-0 min-w-0 flex-col xl:overflow-hidden"
+            initial={reduce ? false : "hidden"}
+            animate="show"
+            variants={fadeUp}
+            transition={reduce ? instantTransition : { ...springSoft, delay: 0.04 }}
+          >
             <DocumentToolbar
               filename={preview.filename}
               downloadReady={downloadReady}
@@ -146,10 +155,14 @@ export function ReviewWorkspace({
                 />
               )}
             </div>
-          </div>
+          </motion.div>
 
           {/* AI / review panel — independent scroll on desktop */}
-          <aside
+          <motion.aside
+            initial={reduce ? false : "hidden"}
+            animate="show"
+            variants={slideFromRight}
+            transition={reduce ? instantTransition : { ...springSoft, delay: 0.08 }}
             className="review-questions-scroll flex min-h-0 flex-col gap-3 xl:overflow-y-auto xl:overscroll-y-contain"
             aria-label="Review controls"
           >
@@ -183,7 +196,7 @@ export function ReviewWorkspace({
             <Button variant="ghost" block className="mt-1 text-xs text-[hsl(var(--muted))]" onClick={onRestart}>
               Back to documents
             </Button>
-          </aside>
+          </motion.aside>
         </div>
       </div>
     </section>

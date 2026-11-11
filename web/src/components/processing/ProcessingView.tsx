@@ -1,4 +1,6 @@
 import type { JobStatus } from "@/lib/types"
+import { AnimatePresence, motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { ProcessingOrb } from "./ProcessingOrb"
 import { ProcessingSteps, currentProcessingLabel } from "./ProcessingSteps"
 
@@ -10,6 +12,7 @@ interface ProcessingViewProps {
 
 export function ProcessingView({ filename, status, questionCount }: ProcessingViewProps) {
   const activeLabel = currentProcessingLabel(status)
+  const reduce = useReducedMotion()
 
   return (
     <section
@@ -17,7 +20,13 @@ export function ProcessingView({ filename, status, questionCount }: ProcessingVi
       aria-live="polite"
       aria-busy={status !== "completed" && status !== "failed"}
     >
-      <div className="w-full max-w-[22rem] text-center">
+      <motion.div
+        className="w-full max-w-[22rem] text-center"
+        initial={reduce ? false : "hidden"}
+        animate="show"
+        variants={fadeUp}
+        transition={reduce ? instantTransition : springSoft}
+      >
         <p className="m-0 truncate text-[0.9375rem] font-medium text-[hsl(var(--foreground))]">{filename}</p>
 
         <p className="mt-5 mb-0 type-section-label text-[hsl(var(--muted-foreground))]">
@@ -26,9 +35,19 @@ export function ProcessingView({ filename, status, questionCount }: ProcessingVi
 
         <ProcessingOrb activeLabel={activeLabel} />
 
-        <p className="m-0 text-[0.9375rem] font-medium text-[hsl(var(--foreground))]" role="status">
-          {activeLabel}
-        </p>
+        <AnimatePresence mode="wait">
+          <motion.p
+            key={activeLabel}
+            className="m-0 text-[0.9375rem] font-medium text-[hsl(var(--foreground))]"
+            role="status"
+            initial={reduce ? false : { opacity: 0, y: 6 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={reduce ? undefined : { opacity: 0, y: -4 }}
+            transition={reduce ? instantTransition : { duration: 0.2 }}
+          >
+            {activeLabel}
+          </motion.p>
+        </AnimatePresence>
         {questionCount != null && questionCount > 0 ? (
           <p className="mt-1 mb-0 type-meta">
             {questionCount} question{questionCount === 1 ? "" : "s"} found
@@ -40,7 +59,7 @@ export function ProcessingView({ filename, status, questionCount }: ProcessingVi
         </div>
 
         <p className="mt-5 mb-0 type-meta">Longer documents may take a minute.</p>
-      </div>
+      </motion.div>
     </section>
   )
 }

@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from "react"
 import { createPortal } from "react-dom"
+import { AnimatePresence, motion, useReducedMotion } from "motion/react"
 import { Pencil, Trash2 } from "lucide-react"
+import { instantTransition, menuPanel, springSnappy } from "@/lib/motion-presets"
 import { cn } from "@/lib/utils"
 
 interface DocumentMenuProps {
@@ -14,12 +16,10 @@ interface DocumentMenuProps {
 export function DocumentMenu({ open, anchorRef, onClose, onRename, onDelete }: DocumentMenuProps) {
   const menuRef = useRef<HTMLDivElement>(null)
   const [position, setPosition] = useState<{ top: number; left: number } | null>(null)
+  const reduce = useReducedMotion()
 
   useLayoutEffect(() => {
-    if (!open || !anchorRef.current) {
-      setPosition(null)
-      return
-    }
+    if (!open || !anchorRef.current) return
 
     const update = () => {
       const anchor = anchorRef.current
@@ -75,42 +75,50 @@ export function DocumentMenu({ open, anchorRef, onClose, onRename, onDelete }: D
     }
   }, [open, onClose, anchorRef])
 
-  if (!open || !position) return null
-
   return createPortal(
-    <div
-      ref={menuRef}
-      role="menu"
-      className={cn(
-        "glass-3 fixed z-[100] min-w-[9.5rem] rounded-md p-1 menu-enter",
-      )}
-      style={{ top: position.top, left: position.left }}
-    >
-      <button
-        type="button"
-        role="menuitem"
-        className="flex w-full items-center gap-2 rounded px-2.5 py-1.5 text-left text-[0.8125rem] text-[hsl(var(--foreground))] hover:bg-[hsla(var(--foreground)/0.05)] focus-visible:outline-none focus-visible:bg-[hsla(var(--foreground)/0.05)]"
-        onClick={() => {
-          onClose()
-          onRename()
-        }}
-      >
-        <Pencil className="size-3.5 text-[hsl(var(--muted))]" aria-hidden />
-        Rename
-      </button>
-      <button
-        type="button"
-        role="menuitem"
-        className="flex w-full items-center gap-2 rounded px-2.5 py-1.5 text-left text-[0.8125rem] text-[hsl(var(--error))] hover:bg-[hsla(var(--error)/0.08)] focus-visible:outline-none focus-visible:bg-[hsla(var(--error)/0.08)]"
-        onClick={() => {
-          onClose()
-          onDelete()
-        }}
-      >
-        <Trash2 className="size-3.5" aria-hidden />
-        Delete
-      </button>
-    </div>,
+    <AnimatePresence>
+      {open && position ? (
+        <motion.div
+          ref={menuRef}
+          key="document-menu"
+          role="menu"
+          className={cn("glass-3 fixed z-[100] min-w-[9.5rem] rounded-md p-1")}
+          style={{ top: position.top, left: position.left }}
+          initial="hidden"
+          animate="show"
+          exit="exit"
+          variants={menuPanel}
+          transition={reduce ? instantTransition : springSnappy}
+        >
+          <motion.button
+            type="button"
+            role="menuitem"
+            whileHover={reduce ? undefined : { x: 2 }}
+            className="flex w-full items-center gap-2 rounded px-2.5 py-1.5 text-left text-[0.8125rem] text-[hsl(var(--foreground))] hover:bg-[hsla(var(--foreground)/0.05)] focus-visible:outline-none focus-visible:bg-[hsla(var(--foreground)/0.05)]"
+            onClick={() => {
+              onClose()
+              onRename()
+            }}
+          >
+            <Pencil className="size-3.5 text-[hsl(var(--muted))]" aria-hidden />
+            Rename
+          </motion.button>
+          <motion.button
+            type="button"
+            role="menuitem"
+            whileHover={reduce ? undefined : { x: 2 }}
+            className="flex w-full items-center gap-2 rounded px-2.5 py-1.5 text-left text-[0.8125rem] text-[hsl(var(--error))] hover:bg-[hsla(var(--error)/0.08)] focus-visible:outline-none focus-visible:bg-[hsla(var(--error)/0.08)]"
+            onClick={() => {
+              onClose()
+              onDelete()
+            }}
+          >
+            <Trash2 className="size-3.5" aria-hidden />
+            Delete
+          </motion.button>
+        </motion.div>
+      ) : null}
+    </AnimatePresence>,
     document.body,
   )
 }

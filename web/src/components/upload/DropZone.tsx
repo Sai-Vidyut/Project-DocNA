@@ -1,4 +1,6 @@
 import { useRef, useState, type DragEvent, type KeyboardEvent } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { springSoft, instantTransition } from "@/lib/motion-presets"
 import { Upload } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -9,6 +11,7 @@ interface DropZoneProps {
 export function DropZone({ onSelectFile }: DropZoneProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [dragOver, setDragOver] = useState(false)
+  const reduce = useReducedMotion()
 
   const pick = () => inputRef.current?.click()
 
@@ -31,7 +34,7 @@ export function DropZone({ onSelectFile }: DropZoneProps) {
 
   return (
     <>
-      <div
+      <motion.div
         role="button"
         tabIndex={0}
         aria-label="Drop your document here or choose a file"
@@ -43,8 +46,18 @@ export function DropZone({ onSelectFile }: DropZoneProps) {
         }}
         onDragLeave={() => setDragOver(false)}
         onDrop={onDrop}
+        initial={reduce ? false : { opacity: 0, y: 12, scale: 0.98 }}
+        animate={{
+          opacity: 1,
+          y: 0,
+          scale: dragOver && !reduce ? 1.02 : 1,
+          borderColor: dragOver ? "hsla(var(--primary) / 0.28)" : undefined,
+        }}
+        whileHover={reduce ? undefined : { scale: 1.01 }}
+        whileTap={reduce ? undefined : { scale: 0.995 }}
+        transition={reduce ? instantTransition : springSoft}
         className={cn(
-          "glass-1 relative cursor-pointer overflow-hidden rounded-md px-5 py-8 text-center transition-[border-color,background] duration-200",
+          "glass-1 relative cursor-pointer overflow-hidden rounded-md px-5 py-8 text-center",
           "hover:border-[hsla(var(--primary)/0.2)]",
           "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsla(var(--primary)/0.35)]",
           dragOver && "border-[hsla(var(--primary)/0.22)] bg-[hsla(var(--primary)/0.04)]",
@@ -56,7 +69,7 @@ export function DropZone({ onSelectFile }: DropZoneProps) {
           or <span className="text-[hsl(var(--primary))]">choose a file</span>
         </p>
         <p className="mt-2.5 type-meta">DOCX files only · Your original document is never modified</p>
-      </div>
+      </motion.div>
       <input
         ref={inputRef}
         type="file"

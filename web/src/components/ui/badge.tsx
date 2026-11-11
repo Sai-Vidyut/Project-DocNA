@@ -1,13 +1,21 @@
 import { cn } from "@/lib/utils"
-import type { HTMLAttributes } from "react"
+import { motion, useReducedMotion, type HTMLMotionProps } from "motion/react"
+import { instantTransition, springSnappy } from "@/lib/motion-presets"
 
-interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
+interface BadgeProps extends Omit<HTMLMotionProps<"span">, "className"> {
   variant?: "success" | "warning" | "default"
+  className?: string
 }
 
 export function Badge({ className, variant = "default", ...props }: BadgeProps) {
+  const reduce = useReducedMotion()
+
   return (
-    <span
+    <motion.span
+      layout={!reduce}
+      initial={reduce ? false : { opacity: 0, scale: 0.92 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={reduce ? instantTransition : springSnappy}
       className={cn(
         "inline-flex shrink-0 items-center rounded px-1.5 py-0.5 text-[0.6875rem] font-medium",
         variant === "success" &&

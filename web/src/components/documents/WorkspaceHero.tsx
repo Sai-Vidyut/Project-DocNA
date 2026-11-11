@@ -1,4 +1,6 @@
 import { useRef, useState, type DragEvent, type KeyboardEvent } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { FileUp } from "lucide-react"
 import { CosmicGlowButton } from "@/components/ui/spark-button"
 import { cn } from "@/lib/utils"
@@ -13,6 +15,7 @@ interface WorkspaceHeroProps {
 export function WorkspaceHero({ compact, onNewDocument, onDropFile }: WorkspaceHeroProps) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [dragOver, setDragOver] = useState(false)
+  const reduce = useReducedMotion()
 
   const accept = (file: File | undefined) => {
     if (!file || !isDocxFile(file)) return
@@ -34,7 +37,12 @@ export function WorkspaceHero({ compact, onNewDocument, onDropFile }: WorkspaceH
   }
 
   return (
-    <div
+    <motion.div
+      initial={reduce ? false : "hidden"}
+      animate="show"
+      variants={fadeUp}
+      transition={reduce ? instantTransition : springSoft}
+      whileHover={reduce ? undefined : { y: -2 }}
       className={cn(
         "workspace-hero relative overflow-hidden rounded-lg",
         compact ? "glass-1 px-4 py-4" : "glass-2 px-6 py-10 md:py-12",
@@ -45,10 +53,12 @@ export function WorkspaceHero({ compact, onNewDocument, onDropFile }: WorkspaceH
         aria-hidden
       />
 
-      <div
+      <motion.div
         role="button"
         tabIndex={0}
         aria-label="Drop a DOCX file or start a new document"
+        animate={{ scale: dragOver && !reduce ? 1.01 : 1 }}
+        transition={reduce ? instantTransition : springSoft}
         className={cn(
           "relative flex flex-col items-center text-center outline-none transition-colors",
           "focus-visible:ring-2 focus-visible:ring-[hsla(var(--primary)/0.35)] focus-visible:ring-offset-2 focus-visible:ring-offset-[hsl(var(--background))] rounded-md",
@@ -99,7 +109,7 @@ export function WorkspaceHero({ compact, onNewDocument, onDropFile }: WorkspaceH
         >
           New document
         </CosmicGlowButton>
-      </div>
+      </motion.div>
 
       <input
         ref={inputRef}
@@ -111,6 +121,6 @@ export function WorkspaceHero({ compact, onNewDocument, onDropFile }: WorkspaceH
           e.target.value = ""
         }}
       />
-    </div>
+    </motion.div>
   )
 }

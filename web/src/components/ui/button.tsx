@@ -1,12 +1,15 @@
 import { cn } from "@/lib/utils"
-import type { ButtonHTMLAttributes } from "react"
+import { motion, useReducedMotion, type HTMLMotionProps } from "motion/react"
+import { instantTransition, springSnappy, tapScale } from "@/lib/motion-presets"
 
 type ButtonVariant = "primary" | "secondary" | "ghost"
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+type ButtonProps = {
   variant?: ButtonVariant
   block?: boolean
   lg?: boolean
+} & Omit<HTMLMotionProps<"button">, "className"> & {
+  className?: string
 }
 
 export function Button({
@@ -17,11 +20,16 @@ export function Button({
   type = "button",
   ...props
 }: ButtonProps) {
+  const reduce = useReducedMotion()
+
   return (
-    <button
+    <motion.button
       type={type}
+      whileHover={reduce ? undefined : { scale: 1.02 }}
+      whileTap={reduce ? undefined : tapScale}
+      transition={reduce ? instantTransition : springSnappy}
       className={cn(
-        "inline-flex items-center justify-center rounded-md border font-medium transition-colors duration-150",
+        "inline-flex items-center justify-center rounded-md border font-medium",
         "focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsla(var(--primary)/0.4)] focus-visible:ring-offset-2 focus-visible:ring-offset-[hsl(var(--background))]",
         "disabled:cursor-not-allowed disabled:opacity-45",
         variant === "primary" &&

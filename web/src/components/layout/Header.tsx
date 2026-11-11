@@ -2,6 +2,8 @@ import { CosmicGlowButton } from "@/components/ui/spark-button"
 import { Button } from "@/components/ui/button"
 import type { AppView } from "@/lib/types"
 import { cn } from "@/lib/utils"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeIn, instantTransition, springSoft } from "@/lib/motion-presets"
 
 interface HeaderProps {
   view: AppView
@@ -20,20 +22,29 @@ export function Header({
   onDocuments,
   hideNewDocument,
 }: HeaderProps) {
+  const reduce = useReducedMotion()
   const isDocuments = view === "documents"
   const isUpload = view === "upload"
   const showDocumentContext = !isUpload && !isDocuments && Boolean(filename || status)
 
   return (
-    <header
+    <motion.header
+      initial={reduce ? false : { opacity: 0, y: -8 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={reduce ? instantTransition : springSoft}
       className="sticky top-0 z-30 border-b border-[hsla(var(--foreground)/0.05)] bg-[hsla(var(--background)/0.72)] backdrop-blur-xl supports-[backdrop-filter]:bg-[hsla(var(--background)/0.55)]"
       style={{ height: "var(--header-height)" }}
     >
       <div className="mx-auto flex h-full max-w-[1180px] items-center gap-3 px-4 md:px-6">
         <div className="flex min-w-0 shrink-0 items-center gap-2">
-          <span className="text-[0.65rem] text-[hsla(var(--primary)/0.8)]" aria-hidden>
+          <motion.span
+            aria-hidden
+            className="text-[0.65rem] text-[hsla(var(--primary)/0.8)]"
+            animate={reduce ? undefined : { rotate: [0, 8, 0] }}
+            transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
+          >
             ◇
-          </span>
+          </motion.span>
           <span className="text-[0.8125rem] font-semibold tracking-tight">DocNA</span>
           {(isDocuments || isUpload) && (
             <>
@@ -46,7 +57,15 @@ export function Header({
         </div>
 
         {showDocumentContext ? (
-          <div className="flex min-w-0 flex-1 items-center justify-center gap-2 px-2 text-[0.8125rem]" aria-live="polite">
+          <motion.div
+            key={`${filename}-${status}`}
+            initial={reduce ? false : "hidden"}
+            animate="show"
+            variants={fadeIn}
+            transition={reduce ? instantTransition : { duration: 0.22 }}
+            className="flex min-w-0 flex-1 items-center justify-center gap-2 px-2 text-[0.8125rem]"
+            aria-live="polite"
+          >
             {onDocuments ? (
               <>
                 <button
@@ -76,7 +95,7 @@ export function Header({
                 {status}
               </span>
             ) : null}
-          </div>
+          </motion.div>
         ) : (
           <div className="flex-1" />
         )}
@@ -104,6 +123,6 @@ export function Header({
           ) : null}
         </div>
       </div>
-    </header>
+    </motion.header>
   )
 }

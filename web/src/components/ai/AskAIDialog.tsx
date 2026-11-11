@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react"
+import { AnimatePresence, motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { Sparkles, X } from "lucide-react"
 import { Dialog, DialogBackdrop } from "@/components/ui/dialog"
 import { CosmicGlowButton } from "@/components/ui/spark-button"
@@ -32,6 +34,7 @@ export function AskAIDialog({
 }: AskAIDialogProps) {
   const [input, setInput] = useState("")
   const messagesRef = useRef<HTMLDivElement>(null)
+  const reduce = useReducedMotion()
 
   useEffect(() => {
     if (open) setInput("")
@@ -89,18 +92,25 @@ export function AskAIDialog({
             className="flex max-h-40 min-h-10 flex-col gap-2 overflow-auto px-4 py-3"
             aria-live="polite"
           >
-            {messages.map((msg, index) => (
-              <div
-                key={index}
-                className={
-                  msg.role === "user"
-                    ? "ml-auto max-w-[88%] rounded-md bg-[hsla(var(--primary)/0.1)] px-2.5 py-1.5 text-[0.78rem] leading-relaxed text-[hsl(var(--foreground))]"
-                    : "max-w-[88%] rounded-md bg-[hsla(var(--foreground)/0.04)] px-2.5 py-1.5 text-[0.78rem] leading-relaxed text-[hsl(var(--foreground))]"
-                }
-              >
-                {msg.content}
-              </div>
-            ))}
+            <AnimatePresence initial={false}>
+              {messages.map((msg, index) => (
+                <motion.div
+                  key={`${index}-${msg.content.slice(0, 24)}`}
+                  initial={reduce ? false : "hidden"}
+                  animate="show"
+                  exit="hidden"
+                  variants={fadeUp}
+                  transition={reduce ? instantTransition : springSoft}
+                  className={
+                    msg.role === "user"
+                      ? "ml-auto max-w-[88%] rounded-md bg-[hsla(var(--primary)/0.1)] px-2.5 py-1.5 text-[0.78rem] leading-relaxed text-[hsl(var(--foreground))]"
+                      : "max-w-[88%] rounded-md bg-[hsla(var(--foreground)/0.04)] px-2.5 py-1.5 text-[0.78rem] leading-relaxed text-[hsl(var(--foreground))]"
+                  }
+                >
+                  {msg.content}
+                </motion.div>
+              ))}
+            </AnimatePresence>
             {loading ? (
               <p className="m-0 type-meta" role="status">
                 AI is thinking…

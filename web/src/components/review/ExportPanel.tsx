@@ -1,4 +1,6 @@
 import { useEffect, useRef, type ReactNode } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { CosmicGlowButton } from "@/components/ui/spark-button"
 import { GlassSurface } from "@/components/ui/glass-surface"
 import { exportDownloadFilename } from "@/lib/export-filename"
@@ -12,9 +14,16 @@ interface ExportPanelProps {
 
 export function ExportPanel({ exportBasename, onBasenameChange, onDownload, downloading }: ExportPanelProps) {
   const invalid = !exportBasename.trim()
+  const reduce = useReducedMotion()
 
   return (
-    <div className="export-finish">
+    <motion.div
+      className="export-finish"
+      initial={reduce ? false : "hidden"}
+      animate="show"
+      variants={fadeUp}
+      transition={reduce ? instantTransition : springSoft}
+    >
       <div className="workspace-divider mb-5" aria-hidden />
       <p className="type-section-label mb-1">Ready to export</p>
       <p className="m-0 text-sm text-[hsl(var(--muted))]">Your document is prepared.</p>
@@ -44,7 +53,7 @@ export function ExportPanel({ exportBasename, onBasenameChange, onDownload, down
           Export document
         </CosmicGlowButton>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
@@ -73,6 +82,7 @@ interface DocumentCanvasProps {
 
 export function DocumentCanvas({ children, scale, onContainerRef }: DocumentCanvasProps) {
   const innerRef = useRef<HTMLDivElement>(null)
+  const reduce = useReducedMotion()
 
   useEffect(() => {
     onContainerRef?.(innerRef.current)
@@ -80,18 +90,25 @@ export function DocumentCanvas({ children, scale, onContainerRef }: DocumentCanv
 
   return (
     <div ref={innerRef} className="document-stage document-canvas-host w-full overflow-x-auto overflow-y-visible pb-1">
-      <div
-        className="document-canvas-scale mx-auto origin-top transition-transform duration-200 motion-reduce:transition-none"
+      <motion.div
+        className="document-canvas-scale mx-auto origin-top"
         style={{
-          transform: `scale(${scale})`,
           width: "816px",
           ["--doc-scale" as string]: scale,
         }}
+        animate={{ scale }}
+        transition={reduce ? instantTransition : springSoft}
       >
-        <article className="page-sheet" aria-label="Document page">
+        <motion.article
+          className="page-sheet"
+          aria-label="Document page"
+          initial={reduce ? false : { opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={reduce ? instantTransition : { ...springSoft, delay: 0.06 }}
+        >
           {children}
-        </article>
-      </div>
+        </motion.article>
+      </motion.div>
     </div>
   )
 }

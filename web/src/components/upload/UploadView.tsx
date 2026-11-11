@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { MotionReveal } from "@/components/motion/motion-primitives"
 import { CosmicGlowButton } from "@/components/ui/spark-button"
 import { DropZone } from "./DropZone"
 import { formatFileSize } from "@/lib/format"
@@ -26,7 +27,7 @@ export function UploadView({
       className="flex min-h-[calc(100vh-var(--header-height))] items-center justify-center px-4 py-10"
       aria-labelledby="upload-heading"
     >
-      <div className="w-full max-w-[440px]">
+      <MotionReveal className="w-full max-w-[440px]">
         {onBack ? (
           <div className="mb-6">
             <Button variant="ghost" className="h-7 px-2 text-[0.75rem]" onClick={onBack}>
@@ -67,7 +68,7 @@ export function UploadView({
             {analyzing ? "Uploading…" : "Analyze document"}
           </CosmicGlowButton>
         </div>
-      </div>
+      </MotionReveal>
     </section>
   )
 }

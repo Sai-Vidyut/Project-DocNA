@@ -1,5 +1,7 @@
+import { AnimatePresence } from "motion/react"
 import type { ReviewTaskEntry } from "@/lib/types"
 import type { AutosaveStatus } from "@/lib/use-autosave"
+import { MotionReveal } from "@/components/motion/motion-primitives"
 import { AnswerCard } from "./AnswerCard"
 
 interface AttentionSectionProps {
@@ -21,21 +23,25 @@ export function AttentionSection({
 }: AttentionSectionProps) {
   return (
     <section aria-labelledby="cards-heading">
-      <h3 id="cards-heading" className="type-section-label mb-2">
-        Needs your input
-      </h3>
+      <MotionReveal>
+        <h3 id="cards-heading" className="type-section-label mb-2">
+          Needs your input
+        </h3>
+      </MotionReveal>
       <div className="flex flex-col gap-2">
-        {items.map((item) => (
-          <AnswerCard
-            key={item.task_id}
-            item={item}
-            value={answerState.get(item.task_id) ?? item.answer_text ?? ""}
-            originalValue={originalAnswers.get(item.task_id) ?? item.answer_text ?? ""}
-            autosaveStatus={autosaveStatus}
-            onChange={(text) => onAnswerChange(item.task_id, text)}
-            onAskAI={(anchor) => onAskAI(item, anchor)}
-          />
-        ))}
+        <AnimatePresence initial={false}>
+          {items.map((item) => (
+            <AnswerCard
+              key={item.task_id}
+              item={item}
+              value={answerState.get(item.task_id) ?? item.answer_text ?? ""}
+              originalValue={originalAnswers.get(item.task_id) ?? item.answer_text ?? ""}
+              autosaveStatus={autosaveStatus}
+              onChange={(text) => onAnswerChange(item.task_id, text)}
+              onAskAI={(anchor) => onAskAI(item, anchor)}
+            />
+          ))}
+        </AnimatePresence>
       </div>
     </section>
   )

@@ -1,4 +1,6 @@
 import { useRef } from "react"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { CosmicGlowButton } from "@/components/ui/spark-button"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
@@ -53,10 +55,18 @@ export function AnswerCard({
   onAskAI,
 }: AnswerCardProps) {
   const inputRef = useRef<HTMLTextAreaElement>(null)
+  const reduce = useReducedMotion()
   const badges = cardStatusBadges(item, value, originalValue, autosaveStatus)
 
   return (
-    <article>
+    <motion.article
+      layout={!reduce}
+      initial={reduce ? false : "hidden"}
+      animate="show"
+      exit="hidden"
+      variants={fadeUp}
+      transition={reduce ? instantTransition : springSoft}
+    >
       <GlassSurface
         level={1}
         interactive
@@ -102,6 +112,6 @@ export function AnswerCard({
           </div>
         </div>
       </GlassSurface>
-    </article>
+    </motion.article>
   )
 }

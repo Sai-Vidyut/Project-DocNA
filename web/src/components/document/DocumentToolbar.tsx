@@ -1,4 +1,6 @@
 import { ZoomIn, ZoomOut, Maximize2 } from "lucide-react"
+import { motion, useReducedMotion } from "motion/react"
+import { fadeUp, instantTransition, springSoft } from "@/lib/motion-presets"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 
@@ -19,8 +21,16 @@ export function DocumentToolbar({
   onZoomOut,
   onZoomFit,
 }: DocumentToolbarProps) {
+  const reduce = useReducedMotion()
+
   return (
-    <div className="glass-1 flex shrink-0 flex-wrap items-center justify-between gap-2 rounded-md px-2.5 py-1.5">
+    <motion.div
+      initial={reduce ? false : "hidden"}
+      animate="show"
+      variants={fadeUp}
+      transition={reduce ? instantTransition : springSoft}
+      className="glass-1 flex shrink-0 flex-wrap items-center justify-between gap-2 rounded-md px-2.5 py-1.5"
+    >
       <div className="min-w-0 flex-1">
         <p className="m-0 truncate text-[0.8125rem] font-medium text-[hsl(var(--foreground))]">{filename}</p>
       </div>
@@ -54,6 +64,6 @@ export function DocumentToolbar({
           </Button>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }

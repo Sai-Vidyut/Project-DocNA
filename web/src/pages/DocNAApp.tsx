@@ -1,4 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react"
+import { AnimatePresence } from "motion/react"
+import { MotionPage } from "@/components/motion/motion-primitives"
 import { AppShell } from "@/components/layout/AppShell"
 import { CosmicBackground } from "@/components/layout/CosmicBackground"
 import { Header } from "@/components/layout/Header"
@@ -477,7 +479,9 @@ export function DocNAApp() {
         hideNewDocument={view === "processing"}
       />
       <AppShell>
+        <AnimatePresence mode="wait">
         {view === "documents" ? (
+          <MotionPage key="documents">
           <DocumentsView
             workspaces={workspaces}
             loading={documentsLoading}
@@ -493,9 +497,11 @@ export function DocNAApp() {
             }}
             onDelete={handleDeleteWorkspace}
           />
+          </MotionPage>
         ) : null}
 
         {view === "upload" ? (
+          <MotionPage key="upload">
           <UploadView
             selectedFile={selectedFile}
             error={uploadError}
@@ -504,17 +510,21 @@ export function DocNAApp() {
             onAnalyze={handleAnalyze}
             onBack={goToDocuments}
           />
+          </MotionPage>
         ) : null}
 
         {view === "processing" ? (
+          <MotionPage key="processing">
           <ProcessingView
             filename={selectedFile?.name || activeWorkspace?.document_name || "Document"}
             status={jobStatus}
             questionCount={activeWorkspace?.questions_detected}
           />
+          </MotionPage>
         ) : null}
 
         {view === "review" && reviewReport && preview ? (
+          <MotionPage key="review" className="flex min-h-0 flex-1 flex-col">
           <ReviewWorkspace
             report={reviewReport}
             preview={preview}
@@ -532,11 +542,15 @@ export function DocNAApp() {
             onDownload={handleDownload}
             onRestart={goToDocuments}
           />
+          </MotionPage>
         ) : null}
 
         {view === "error" ? (
+          <MotionPage key="error">
           <ErrorView title={errorTitle} detail={errorDetail} onRetry={goToDocuments} />
+          </MotionPage>
         ) : null}
+        </AnimatePresence>
       </AppShell>
 
       <AskAIDialog
